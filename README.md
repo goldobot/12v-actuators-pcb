@@ -17,9 +17,11 @@
 - 5V fourni en externe (a découpler) + common mode choke?
 - Échéance du draft le dimanche 26 février
 
-## Taille de la PCB (estimation)
+## Taille de la PCB
 
-![estimation de la taille de la pcb pneuma](./images/estimation_taille_pcb.png)
+Estimation                 |  Comparaison avec une carte bancaire
+:-------------------------:|:-------------------------:
+![](./images/estimation_taille_pcb.png)  |  ![](https://user-images.githubusercontent.com/9111357/221445025-81ade442-1737-4052-ba31-01c18e8f846b.png)
 
 _Dimensions en mm_
 
