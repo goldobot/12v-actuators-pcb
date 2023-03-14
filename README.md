@@ -10,6 +10,7 @@
 - Capteurs de pression, double emprunte
 - Passer le 12V au pont en H, connecteur imposé
 - Entrée NTC 100k piston compresseur -> uC
+- 3 sorties électrovannes + 1 sortie purge
 
 ## Specs générales
 - Tout doit être en Français de préférence
