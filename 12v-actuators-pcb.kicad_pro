@@ -328,6 +328,18 @@
     [
       "d0b6cc72-ff07-4f5e-a148-04b65c86a715",
       ""
+    ],
+    [
+      "4dd90d23-d04c-40fd-a37c-3c4cd3a873c8",
+      "Actionneurs"
+    ],
+    [
+      "a9998e65-7bac-4337-98c8-7de7c845405f",
+      "Arrêt d'urgence"
+    ],
+    [
+      "fb149088-2a8c-4980-aaf5-58672ac727d2",
+      "Capteurs"
     ]
   ],
   "text_variables": {}
