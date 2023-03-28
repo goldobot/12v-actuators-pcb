@@ -4091,7 +4091,7 @@
           (reference "R21") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/fb149088-2a8c-4980-aaf5-58672ac727d2"
-          (reference "R19") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
     )
@@ -4120,7 +4120,7 @@
           (reference "R20") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/fb149088-2a8c-4980-aaf5-58672ac727d2"
-          (reference "R5") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )
@@ -4149,7 +4149,7 @@
           (reference "R5") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/fb149088-2a8c-4980-aaf5-58672ac727d2"
-          (reference "R20") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -4178,7 +4178,7 @@
           (reference "R21") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/fb149088-2a8c-4980-aaf5-58672ac727d2"
-          (reference "R29") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -4206,7 +4206,7 @@
           (reference "#PWR033") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/fb149088-2a8c-4980-aaf5-58672ac727d2"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -4234,7 +4234,7 @@
           (reference "#PWR025") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/fb149088-2a8c-4980-aaf5-58672ac727d2"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -4262,7 +4262,7 @@
           (reference "#PWR024") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/fb149088-2a8c-4980-aaf5-58672ac727d2"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -4291,7 +4291,7 @@
           (reference "R4") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/fb149088-2a8c-4980-aaf5-58672ac727d2"
-          (reference "R21") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
     )
@@ -4319,7 +4319,7 @@
           (reference "#PWR032") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/fb149088-2a8c-4980-aaf5-58672ac727d2"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
     )
@@ -4347,7 +4347,7 @@
           (reference "#PWR024") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/fb149088-2a8c-4980-aaf5-58672ac727d2"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -4375,7 +4375,7 @@
           (reference "#PWR032") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/fb149088-2a8c-4980-aaf5-58672ac727d2"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -4390,7 +4390,7 @@
     (property "Value" "100nF" (at 44.45 107.95 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 35.8648 101.6 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 35.8648 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 36.83 105.41 0)
@@ -4407,7 +4407,7 @@
           (reference "C5") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/fb149088-2a8c-4980-aaf5-58672ac727d2"
-          (reference "C21") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
     )
@@ -4435,7 +4435,7 @@
           (reference "#PWR026") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/fb149088-2a8c-4980-aaf5-58672ac727d2"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -4464,7 +4464,7 @@
           (reference "C2") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/fb149088-2a8c-4980-aaf5-58672ac727d2"
-          (reference "C4") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
     )
@@ -4496,7 +4496,7 @@
           (reference "C5") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/fb149088-2a8c-4980-aaf5-58672ac727d2"
-          (reference "C2") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
     )
@@ -4524,7 +4524,7 @@
           (reference "#PWR024") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/fb149088-2a8c-4980-aaf5-58672ac727d2"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -4553,7 +4553,7 @@
           (reference "R19") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/fb149088-2a8c-4980-aaf5-58672ac727d2"
-          (reference "R4") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
     )
@@ -4582,7 +4582,7 @@
           (reference "C2") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/fb149088-2a8c-4980-aaf5-58672ac727d2"
-          (reference "C22") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -4639,7 +4639,7 @@
           (reference "#PWR024") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/fb149088-2a8c-4980-aaf5-58672ac727d2"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -4654,7 +4654,7 @@
     (property "Value" "220nF" (at 68.58 33.655 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 65.7352 35.56 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 65.7352 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 64.77 31.75 0)
@@ -4671,7 +4671,7 @@
           (reference "C4") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/fb149088-2a8c-4980-aaf5-58672ac727d2"
-          (reference "C5") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -4703,7 +4703,7 @@
           (reference "U2") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/fb149088-2a8c-4980-aaf5-58672ac727d2"
-          (reference "U2") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )

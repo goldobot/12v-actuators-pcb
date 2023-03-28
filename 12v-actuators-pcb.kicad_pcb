@@ -1,2 +1,127 @@
 (kicad_pcb (version 20221018) (generator pcbnew)
+
+  (general
+    (thickness 1.6)
+  )
+
+  (paper "A4")
+  (layers
+    (0 "F.Cu" signal)
+    (31 "B.Cu" signal)
+    (32 "B.Adhes" user "B.Adhesive")
+    (33 "F.Adhes" user "F.Adhesive")
+    (34 "B.Paste" user)
+    (35 "F.Paste" user)
+    (36 "B.SilkS" user "B.Silkscreen")
+    (37 "F.SilkS" user "F.Silkscreen")
+    (38 "B.Mask" user)
+    (39 "F.Mask" user)
+    (40 "Dwgs.User" user "User.Drawings")
+    (41 "Cmts.User" user "User.Comments")
+    (42 "Eco1.User" user "User.Eco1")
+    (43 "Eco2.User" user "User.Eco2")
+    (44 "Edge.Cuts" user)
+    (45 "Margin" user)
+    (46 "B.CrtYd" user "B.Courtyard")
+    (47 "F.CrtYd" user "F.Courtyard")
+    (48 "B.Fab" user)
+    (49 "F.Fab" user)
+    (50 "User.1" user)
+    (51 "User.2" user)
+    (52 "User.3" user)
+    (53 "User.4" user)
+    (54 "User.5" user)
+    (55 "User.6" user)
+    (56 "User.7" user)
+    (57 "User.8" user)
+    (58 "User.9" user)
+  )
+
+  (setup
+    (pad_to_mask_clearance 0)
+    (pcbplotparams
+      (layerselection 0x00010fc_ffffffff)
+      (plot_on_all_layers_selection 0x0000000_00000000)
+      (disableapertmacros false)
+      (usegerberextensions false)
+      (usegerberattributes true)
+      (usegerberadvancedattributes true)
+      (creategerberjobfile true)
+      (dashed_line_dash_ratio 12.000000)
+      (dashed_line_gap_ratio 3.000000)
+      (svgprecision 4)
+      (plotframeref false)
+      (viasonmask false)
+      (mode 1)
+      (useauxorigin false)
+      (hpglpennumber 1)
+      (hpglpenspeed 20)
+      (hpglpendiameter 15.000000)
+      (dxfpolygonmode true)
+      (dxfimperialunits true)
+      (dxfusepcbnewfont true)
+      (psnegative false)
+      (psa4output false)
+      (plotreference true)
+      (plotvalue true)
+      (plotinvisibletext false)
+      (sketchpadsonfab false)
+      (subtractmaskfromsilk false)
+      (outputformat 1)
+      (mirror false)
+      (drillshape 1)
+      (scaleselection 1)
+      (outputdirectory "")
+    )
+  )
+
+  (net 0 "")
+
+  (gr_arc (start 196.632641 72.65) (mid 195.48459 72.421639) (end 194.51132 71.77132)
+    (stroke (width 0.25) (type solid)) (layer "F.SilkS") (tstamp 0fedf795-0f29-432c-b8ae-e4cb81fabc8d))
+  (gr_line (start 202.39 75.65) (end 202.39 117.65)
+    (stroke (width 0.25) (type solid)) (layer "F.SilkS") (tstamp 1bacef2d-e7cc-41c1-94ff-662c2e5387b8))
+  (gr_arc (start 202.39 117.65) (mid 201.51132 119.77132) (end 199.39 120.65)
+    (stroke (width 0.25) (type solid)) (layer "F.SilkS") (tstamp 248adad3-bc1d-46ca-b4f5-9cc17adae0de))
+  (gr_arc (start 199.39 72.65) (mid 201.51132 73.52868) (end 202.39 75.65)
+    (stroke (width 0.25) (type solid)) (layer "F.SilkS") (tstamp 2aa59ae0-1856-4b3f-bb20-a2278a7e546e))
+  (gr_line (start 184.26868 61.52868) (end 194.51132 71.77132)
+    (stroke (width 0.25) (type solid)) (layer "F.SilkS") (tstamp 3468ff45-3fc0-4658-9801-e18f94fbe01b))
+  (gr_line (start 82.39 117.65) (end 82.39 104.047959)
+    (stroke (width 0.25) (type solid)) (layer "F.SilkS") (tstamp 4e67b800-808a-415c-a9fa-1cd8558b7f6a))
+  (gr_arc (start 82.39 104.047959) (mid 82.670756 102.780832) (end 83.460424 101.750844)
+    (stroke (width 0.25) (type solid)) (layer "F.SilkS") (tstamp 53089772-bff3-4648-a022-2010125e11d1))
+  (gr_line (start 196.632641 72.65) (end 199.39 72.65)
+    (stroke (width 0.25) (type solid)) (layer "F.SilkS") (tstamp 5d5fab74-ccc3-4ea7-9ac7-edc7ef7d589f))
+  (gr_arc (start 85.39 120.65) (mid 83.26868 119.77132) (end 82.39 117.65)
+    (stroke (width 0.25) (type solid)) (layer "F.SilkS") (tstamp 8a3ce482-6249-4d5d-9c24-57444902945a))
+  (gr_line (start 83.460424 101.750844) (end 131.553232 61.352885)
+    (stroke (width 0.25) (type solid)) (layer "F.SilkS") (tstamp 928034a6-3e21-4e3a-8599-e91fd198866b))
+  (gr_line (start 199.39 120.65) (end 85.39 120.65)
+    (stroke (width 0.25) (type solid)) (layer "F.SilkS") (tstamp 951a02fb-8ebb-465c-8b9d-cfbf6cbd8f66))
+  (gr_arc (start 131.553232 61.352885) (mid 132.456004 60.831195) (end 133.482808 60.65)
+    (stroke (width 0.25) (type solid)) (layer "F.SilkS") (tstamp ae1687fb-f032-4a2c-9b45-6a71ec64184d))
+  (gr_line (start 133.482808 60.65) (end 182.147359 60.65)
+    (stroke (width 0.25) (type solid)) (layer "F.SilkS") (tstamp c41227a0-ad16-43e4-9e79-1584980757b5))
+  (gr_arc (start 182.147359 60.65) (mid 183.29541 60.878361) (end 184.26868 61.52868)
+    (stroke (width 0.25) (type solid)) (layer "F.SilkS") (tstamp fa6b285d-9ac6-4d28-9a51-bb0b7d1a3742))
+
+  (group "" (id 39c0f55c-0f9a-4ebd-8a02-addcb657a4e3)
+    (members
+      0fedf795-0f29-432c-b8ae-e4cb81fabc8d
+      1bacef2d-e7cc-41c1-94ff-662c2e5387b8
+      248adad3-bc1d-46ca-b4f5-9cc17adae0de
+      2aa59ae0-1856-4b3f-bb20-a2278a7e546e
+      3468ff45-3fc0-4658-9801-e18f94fbe01b
+      4e67b800-808a-415c-a9fa-1cd8558b7f6a
+      53089772-bff3-4648-a022-2010125e11d1
+      5d5fab74-ccc3-4ea7-9ac7-edc7ef7d589f
+      8a3ce482-6249-4d5d-9c24-57444902945a
+      928034a6-3e21-4e3a-8599-e91fd198866b
+      951a02fb-8ebb-465c-8b9d-cfbf6cbd8f66
+      ae1687fb-f032-4a2c-9b45-6a71ec64184d
+      c41227a0-ad16-43e4-9e79-1584980757b5
+      fa6b285d-9ac6-4d28-9a51-bb0b7d1a3742
+    )
+  )
 )
