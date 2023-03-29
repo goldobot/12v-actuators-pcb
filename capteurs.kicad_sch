@@ -61,6 +61,20 @@
           (fill (type none))
         )
       )
+      (symbol "WSEN-PDUS_1_0"
+        (pin no_connect line (at 27.94 2.54 180) (length 2.54) hide
+          (name "" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 27.94 0 180) (length 2.54) hide
+          (name "" (effects (font (size 1.27 1.27))))
+          (number "7" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 27.94 -2.54 180) (length 2.54) hide
+          (name "" (effects (font (size 1.27 1.27))))
+          (number "8" (effects (font (size 1.27 1.27))))
+        )
+      )
       (symbol "WSEN-PDUS_1_1"
         (pin input line (at -12.7 3.81 0) (length 2.54)
           (name "SCL" (effects (font (size 1.27 1.27))))
@@ -4692,6 +4706,9 @@
     (property "Datasheet" "https://www.we-online.com/components/products/manual/2513130810401_WSEN-PDUS%2025131308xxx01%20Manual_rev1.0.pdf" (at 53.34 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "6" (uuid 2e2645c6-ac6d-4a49-9ce3-326793b0d9e4))
+    (pin "7" (uuid d3665b7d-b636-486e-9a65-049edde21923))
+    (pin "8" (uuid 27009a75-81cc-4f06-ba03-d025edc73ee1))
     (pin "1" (uuid 38f0141b-a22d-42a1-ad80-466ab4b4df84))
     (pin "2" (uuid c7bf6015-2305-4de5-8f0c-df4e3d61b1ee))
     (pin "3" (uuid bec39cac-2e89-41f3-8a3e-1d65ec7897c8))
