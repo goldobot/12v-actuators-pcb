@@ -1,5 +1,7 @@
 # 12v-actuators-pcb
  Carte "pneuma" du robot l'équipe Goldorak
+ 
+![](./images/12v-actuators-pcb.png)
 
 ## Specs composants carte actionneurs 12V
 - Fuse holder keystone 3557-2
