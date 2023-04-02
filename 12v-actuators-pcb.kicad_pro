@@ -113,7 +113,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.01,
+        "min_copper_edge_clearance": 0.3,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
@@ -459,7 +459,7 @@
     },
     "net_colors": {
       "/PWR_12V": "rgb(207, 90, 255)",
-      "GND": "rgb(3, 67, 255)",
+      "GND": "rgb(88, 90, 255)",
       "GNDPWR": "rgb(123, 185, 255)"
     },
     "netclass_assignments": null,
