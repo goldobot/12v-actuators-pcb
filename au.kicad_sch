@@ -4717,7 +4717,7 @@
           (reference "#PWR09") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/a9998e65-7bac-4337-98c8-7de7c845405f"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -4804,7 +4804,7 @@
           (reference "#PWR07") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/a9998e65-7bac-4337-98c8-7de7c845405f"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -4836,7 +4836,7 @@
           (reference "C3") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/a9998e65-7bac-4337-98c8-7de7c845405f"
-          (reference "C17") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -4865,7 +4865,7 @@
           (reference "C7") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/a9998e65-7bac-4337-98c8-7de7c845405f"
-          (reference "C19") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -4929,7 +4929,7 @@
           (reference "C1") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/a9998e65-7bac-4337-98c8-7de7c845405f"
-          (reference "C20") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
     )
@@ -4957,7 +4957,7 @@
           (reference "#PWR05") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/a9998e65-7bac-4337-98c8-7de7c845405f"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -5004,7 +5004,7 @@
     (property "Footprint" "Package_TO_SOT_SMD:TO-263-2" (at 76.835 26.67 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
-    (property "Datasheet" "https://www.vishay.com/docs/73045/73045.pdf" (at 78.74 31.75 90)
+    (property "Datasheet" "http://www.jaolen.com/images/pdf/QM6015D.pdf" (at 78.74 31.75 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (pin "1" (uuid 29a7b45c-d248-4d47-a4b2-2af15a8c0e1e))
@@ -5073,7 +5073,7 @@
           (reference "#PWR030") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/a9998e65-7bac-4337-98c8-7de7c845405f"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -5101,7 +5101,7 @@
           (reference "#PWR030") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/a9998e65-7bac-4337-98c8-7de7c845405f"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -5159,7 +5159,7 @@
           (reference "C7") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/a9998e65-7bac-4337-98c8-7de7c845405f"
-          (reference "C18") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -5187,7 +5187,7 @@
           (reference "#PWR05") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/a9998e65-7bac-4337-98c8-7de7c845405f"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )

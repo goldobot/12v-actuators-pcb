@@ -33,19 +33,19 @@
       )
       (symbol "ESC_Emax_Bullet_15A_1_1"
         (pin power_in line (at -8.89 5.08 0) (length 2.54)
-          (name "VCC" (effects (font (size 1.27 1.27))))
+          (name "GND" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin input line (at -8.89 1.27 0) (length 2.54)
-          (name "S" (effects (font (size 1.27 1.27))))
+        (pin passive line (at -8.89 1.27 0) (length 2.54)
+          (name "GND" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at -8.89 -1.27 0) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
+        (pin input line (at -8.89 -1.27 0) (length 2.54)
+          (name "S" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -8.89 -5.08 0) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
+          (name "VCC" (effects (font (size 1.27 1.27))))
           (number "4" (effects (font (size 1.27 1.27))))
         )
         (pin power_out line (at 8.89 5.08 180) (length 2.54)
@@ -5349,7 +5349,7 @@
   (symbol (lib_id "Device:C_Small") (at 87.63 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 012dabee-2234-4adb-974d-bbce6a5d65e5)
-    (property "Reference" "C8" (at 82.55 39.37 0)
+    (property "Reference" "C7" (at 82.55 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470pF" (at 81.28 41.91 0)
@@ -5366,7 +5366,7 @@
     (instances
       (project "12v-actuators-pcb"
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/4dd90d23-d04c-40fd-a37c-3c4cd3a873c8"
-          (reference "C8") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -5394,7 +5394,7 @@
           (reference "#PWR021") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/4dd90d23-d04c-40fd-a37c-3c4cd3a873c8"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -5422,7 +5422,7 @@
           (reference "#PWR020") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/4dd90d23-d04c-40fd-a37c-3c4cd3a873c8"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -5460,7 +5460,7 @@
   (symbol (lib_id "Device:C_Small") (at 163.83 27.94 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 05c74e71-9bea-4898-a39e-ed513b320aae)
-    (property "Reference" "C6" (at 166.37 27.2986 0)
+    (property "Reference" "C5" (at 166.37 27.2986 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100nF" (at 166.37 29.8386 0)
@@ -5477,7 +5477,7 @@
     (instances
       (project "12v-actuators-pcb"
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/4dd90d23-d04c-40fd-a37c-3c4cd3a873c8"
-          (reference "C6") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -5505,7 +5505,7 @@
           (reference "#PWR012") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/4dd90d23-d04c-40fd-a37c-3c4cd3a873c8"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -5541,19 +5541,19 @@
     )
   )
 
-  (symbol (lib_id "ComponentsEvo:ESC_Emax_Bullet_15A") (at 109.22 109.22 0) (unit 1)
+  (symbol (lib_id "ComponentsEvo:ESC_Emax_Bullet_15A") (at 109.22 109.22 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 18310327-d6d6-4210-b313-21e54b9ef630)
-    (property "Reference" "X2" (at 109.22 97.155 0)
+    (property "Reference" "X2" (at 110.49 99.695 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "ESC_Emax_Bullet_15A" (at 109.22 99.06 0)
+    (property "Value" "ESC_Emax_Bullet_15A" (at 110.49 97.79 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "ComponentsEvo:ESC_Emax_Bullet_15A" (at 109.22 121.92 0)
+    (property "Footprint" "ComponentsEvo:ESC_Emax_Bullet_15A" (at 109.22 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 109.22 118.11 0)
+    (property "Datasheet" "" (at 109.22 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0f12ab4e-a8b1-4173-90c5-0d6c5316da88))
@@ -5604,13 +5604,13 @@
     )
   )
 
-  (symbol (lib_id "Connector:Conn_01x03_Pin") (at 125.73 109.22 0) (mirror y) (unit 1)
+  (symbol (lib_id "Connector:Conn_01x03_Pin") (at 125.73 109.22 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 276374dc-13e1-4677-8fbb-aa2dabab7c49)
-    (property "Reference" "J7" (at 127 109.855 0)
+    (property "Reference" "J7" (at 127 108.585 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "MOTOR_15_3" (at 127 107.315 0)
+    (property "Value" "MOTOR_15_3" (at 127 111.125 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 125.73 109.22 0)
@@ -5656,7 +5656,7 @@
           (reference "#PWR014") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/4dd90d23-d04c-40fd-a37c-3c4cd3a873c8"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -5717,7 +5717,7 @@
           (reference "#PWR013") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/4dd90d23-d04c-40fd-a37c-3c4cd3a873c8"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -5726,7 +5726,7 @@
   (symbol (lib_id "Device:C_Small") (at 91.44 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 328451a9-f338-4fd3-a34d-ea7851519660)
-    (property "Reference" "C15" (at 83.82 97.79 0)
+    (property "Reference" "C14" (at 83.82 97.79 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 82.55 100.33 0)
@@ -5743,7 +5743,7 @@
     (instances
       (project "12v-actuators-pcb"
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/4dd90d23-d04c-40fd-a37c-3c4cd3a873c8"
-          (reference "C15") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -5800,7 +5800,7 @@
           (reference "#PWR016") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/4dd90d23-d04c-40fd-a37c-3c4cd3a873c8"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -5890,7 +5890,7 @@
           (reference "#PWR017") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/4dd90d23-d04c-40fd-a37c-3c4cd3a873c8"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -5996,7 +5996,7 @@
   (symbol (lib_id "Device:C_Small") (at 87.63 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 53693c76-bb8e-4356-97c2-e011244943df)
-    (property "Reference" "C13" (at 82.55 76.2 0)
+    (property "Reference" "C12" (at 82.55 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470pF" (at 81.28 78.74 0)
@@ -6013,7 +6013,7 @@
     (instances
       (project "12v-actuators-pcb"
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/4dd90d23-d04c-40fd-a37c-3c4cd3a873c8"
-          (reference "C13") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -6022,7 +6022,7 @@
   (symbol (lib_id "Device:C_Small") (at 91.44 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 53eee1ed-11f4-4cc3-9383-c4fb84fa4fc5)
-    (property "Reference" "C10" (at 83.82 60.96 0)
+    (property "Reference" "C9" (at 83.82 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 82.55 63.5 0)
@@ -6039,7 +6039,7 @@
     (instances
       (project "12v-actuators-pcb"
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/4dd90d23-d04c-40fd-a37c-3c4cd3a873c8"
-          (reference "C10") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -6048,7 +6048,7 @@
   (symbol (lib_id "Device:C_Small") (at 90.17 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 63d82f73-013a-42f0-83e0-8905525650c3)
-    (property "Reference" "C16" (at 85.09 113.03 0)
+    (property "Reference" "C15" (at 85.09 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470pF" (at 83.82 115.57 0)
@@ -6065,7 +6065,7 @@
     (instances
       (project "12v-actuators-pcb"
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/4dd90d23-d04c-40fd-a37c-3c4cd3a873c8"
-          (reference "C16") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -6162,7 +6162,7 @@
   (symbol (lib_id "Device:C_Small") (at 90.17 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 767b5712-b6dd-47d0-ba8b-1c6390b50c6f)
-    (property "Reference" "C5" (at 82.55 25.4 0)
+    (property "Reference" "C4" (at 82.55 25.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 81.28 27.94 0)
@@ -6179,7 +6179,7 @@
     (instances
       (project "12v-actuators-pcb"
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/4dd90d23-d04c-40fd-a37c-3c4cd3a873c8"
-          (reference "C5") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -6207,7 +6207,7 @@
           (reference "#PWR011") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/4dd90d23-d04c-40fd-a37c-3c4cd3a873c8"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -6235,7 +6235,7 @@
           (reference "#PWR023") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/4dd90d23-d04c-40fd-a37c-3c4cd3a873c8"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -6263,25 +6263,25 @@
           (reference "#PWR031") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/4dd90d23-d04c-40fd-a37c-3c4cd3a873c8"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "ComponentsEvo:ESC_Emax_Bullet_15A") (at 109.22 35.56 0) (unit 1)
+  (symbol (lib_id "ComponentsEvo:ESC_Emax_Bullet_15A") (at 109.22 35.56 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7b9bae29-516a-4b2a-aded-fdfe68effa4b)
-    (property "Reference" "X3" (at 109.22 23.495 0)
+    (property "Reference" "X3" (at 109.22 26.035 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "ESC_Emax_Bullet_15A" (at 109.22 25.4 0)
+    (property "Value" "ESC_Emax_Bullet_15A" (at 109.22 24.13 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "ComponentsEvo:ESC_Emax_Bullet_15A" (at 109.22 48.26 0)
+    (property "Footprint" "ComponentsEvo:ESC_Emax_Bullet_15A" (at 109.22 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 109.22 44.45 0)
+    (property "Datasheet" "" (at 109.22 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5a303d4b-178a-4cd5-ae0b-b5092c06a059))
@@ -6306,7 +6306,7 @@
   (symbol (lib_id "Device:C_Small") (at 175.26 71.12 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7bdc19fd-6e49-46f0-be04-9b52b75edf67)
-    (property "Reference" "C12" (at 177.8 70.4786 0)
+    (property "Reference" "C11" (at 177.8 70.4786 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10uF" (at 177.8 73.0186 0)
@@ -6323,7 +6323,7 @@
     (instances
       (project "12v-actuators-pcb"
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/4dd90d23-d04c-40fd-a37c-3c4cd3a873c8"
-          (reference "C12") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -6362,13 +6362,13 @@
     )
   )
 
-  (symbol (lib_id "Connector:Conn_01x03_Pin") (at 124.46 72.39 0) (mirror y) (unit 1)
+  (symbol (lib_id "Connector:Conn_01x03_Pin") (at 124.46 72.39 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 84b1b161-227c-45fe-869b-ebb4438adfd4)
-    (property "Reference" "J6" (at 125.73 73.025 0)
+    (property "Reference" "J6" (at 125.73 71.755 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "MOTOR_15_2" (at 125.73 70.485 0)
+    (property "Value" "MOTOR_15_2" (at 125.73 74.295 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 124.46 72.39 0)
@@ -6480,19 +6480,19 @@
     )
   )
 
-  (symbol (lib_id "ComponentsEvo:ESC_Emax_Bullet_15A") (at 107.95 72.39 0) (unit 1)
+  (symbol (lib_id "ComponentsEvo:ESC_Emax_Bullet_15A") (at 107.95 72.39 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9aa55b4b-4b3c-4707-be4f-bf0c64933941)
-    (property "Reference" "X1" (at 107.95 60.325 0)
+    (property "Reference" "X1" (at 107.95 62.865 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "ESC_Emax_Bullet_15A" (at 107.95 62.23 0)
+    (property "Value" "ESC_Emax_Bullet_15A" (at 107.95 60.96 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "ComponentsEvo:ESC_Emax_Bullet_15A" (at 107.95 85.09 0)
+    (property "Footprint" "ComponentsEvo:ESC_Emax_Bullet_15A" (at 107.95 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 107.95 81.28 0)
+    (property "Datasheet" "" (at 107.95 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 340e8ae3-867a-4b54-a6c4-b95abbcd78dc))
@@ -6517,7 +6517,7 @@
   (symbol (lib_id "Device:C_Small") (at 175.26 27.94 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9ca7aa35-2d1c-48f3-a393-c7c3d5c5baef)
-    (property "Reference" "C7" (at 177.8 27.2986 0)
+    (property "Reference" "C6" (at 177.8 27.2986 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10uF" (at 177.8 29.8386 0)
@@ -6534,7 +6534,7 @@
     (instances
       (project "12v-actuators-pcb"
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/4dd90d23-d04c-40fd-a37c-3c4cd3a873c8"
-          (reference "C7") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -6543,7 +6543,7 @@
   (symbol (lib_id "Device:C_Small") (at 182.88 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a3615c6b-5d65-4c68-bfe4-3b0eeac7de2d)
-    (property "Reference" "C9" (at 176.53 50.8 0)
+    (property "Reference" "C8" (at 176.53 50.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470pF" (at 175.26 53.34 0)
@@ -6560,7 +6560,7 @@
     (instances
       (project "12v-actuators-pcb"
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/4dd90d23-d04c-40fd-a37c-3c4cd3a873c8"
-          (reference "C9") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -6695,7 +6695,7 @@
   (symbol (lib_id "Device:C_Small") (at 163.83 71.12 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ae0b6e1e-e71c-4494-a1a9-e91d3bb1e32a)
-    (property "Reference" "C11" (at 166.37 70.4786 0)
+    (property "Reference" "C10" (at 166.37 70.4786 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100nF" (at 166.37 73.0186 0)
@@ -6712,19 +6712,19 @@
     (instances
       (project "12v-actuators-pcb"
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/4dd90d23-d04c-40fd-a37c-3c4cd3a873c8"
-          (reference "C11") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Connector:Conn_01x03_Pin") (at 125.73 35.56 0) (mirror y) (unit 1)
+  (symbol (lib_id "Connector:Conn_01x03_Pin") (at 125.73 35.56 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b0c5d3be-4852-4e69-bca4-4dddbb74b58c)
-    (property "Reference" "J5" (at 127 36.195 0)
+    (property "Reference" "J5" (at 127 34.925 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "MOTOR_15_1" (at 127 33.655 0)
+    (property "Value" "MOTOR_15_1" (at 127 37.465 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 125.73 35.56 0)
@@ -6770,7 +6770,7 @@
           (reference "#PWR018") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/4dd90d23-d04c-40fd-a37c-3c4cd3a873c8"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -6798,7 +6798,7 @@
           (reference "#PWR017") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/4dd90d23-d04c-40fd-a37c-3c4cd3a873c8"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -6826,7 +6826,7 @@
           (reference "#PWR015") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/4dd90d23-d04c-40fd-a37c-3c4cd3a873c8"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -6854,7 +6854,7 @@
           (reference "#PWR013") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/4dd90d23-d04c-40fd-a37c-3c4cd3a873c8"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -6882,7 +6882,7 @@
           (reference "#PWR010") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/4dd90d23-d04c-40fd-a37c-3c4cd3a873c8"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -7003,7 +7003,7 @@
           (reference "#PWR015") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/4dd90d23-d04c-40fd-a37c-3c4cd3a873c8"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -7095,7 +7095,7 @@
           (reference "#PWR022") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/4dd90d23-d04c-40fd-a37c-3c4cd3a873c8"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -7162,7 +7162,7 @@
   (symbol (lib_id "Device:C_Small") (at 184.15 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f10d49eb-71eb-4b4c-9ca0-74f06f744184)
-    (property "Reference" "C14" (at 177.8 93.98 0)
+    (property "Reference" "C13" (at 177.8 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470pF" (at 176.53 96.52 0)
@@ -7179,7 +7179,7 @@
     (instances
       (project "12v-actuators-pcb"
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/4dd90d23-d04c-40fd-a37c-3c4cd3a873c8"
-          (reference "C14") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -7207,7 +7207,7 @@
           (reference "#PWR010") (unit 1)
         )
         (path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/4dd90d23-d04c-40fd-a37c-3c4cd3a873c8"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
