@@ -2,6 +2,8 @@
  Carte "pneuma" du robot l'équipe Goldorak
  
 ![](./images/12v-actuators-pcb.png)
+![carte_12v_pneuma](https://user-images.githubusercontent.com/9111357/233331244-ee4a173a-776f-45a0-9ef5-6dc474d77c8d.jpg)
+
 
 ## Specs composants carte actionneurs 12V
 - Fuse holder keystone 3557-2
