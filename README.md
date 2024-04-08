@@ -31,5 +31,5 @@ Estimation                 |  Comparaison avec une carte bancaire
 _Dimensions en mm_
 
 ## Place dans l'architecture générale
-
+Voir "Carte pneumatique", milieu-droite.
 ![carte pneuma dans l'architecture générale](https://github.com/goldobot/12v-actuators-pcb/assets/9111357/1d70ee96-c7ae-42cf-a25e-c1604eeecfb9)
