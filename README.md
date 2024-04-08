@@ -1,5 +1,5 @@
 # 12v-actuators-pcb
- Carte "pneuma" du robot l'équipe Goldorak
+ Carte pour les actuateurs pneumatiques + capteur, moteurs brushless, répartition 12V et arrêt d'urgence du robot l'équipe Goldorak.
  
 ![](./images/12v-actuators-pcb.png)
 ![carte_12v_pneuma](https://user-images.githubusercontent.com/9111357/233331244-ee4a173a-776f-45a0-9ef5-6dc474d77c8d.jpg)
@@ -32,4 +32,4 @@ _Dimensions en mm_
 
 ## Place dans l'architecture générale
 
-![carte pneuma dans l'architecture générale](./images/goldorak_elec_architecture.jpeg)
+![carte pneuma dans l'architecture générale](https://github.com/goldobot/12v-actuators-pcb/assets/9111357/1d70ee96-c7ae-42cf-a25e-c1604eeecfb9)
