@@ -733,6 +733,166 @@
 				)
 			)
 		)
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:TestPoint_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -4415,6 +4575,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 103.505) (xy 126.365 103.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "000ec0e4-b20a-403a-b57e-64ecefece444")
+	)
+	(wire
+		(pts
 			(xy 223.52 127) (xy 227.33 127)
 		)
 		(stroke
@@ -4575,13 +4745,23 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 179.07) (xy 40.64 179.07)
+			(xy 38.1 179.07) (xy 31.75 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "11860fd5-cf3b-40ba-92c9-d8289444ea0d")
+	)
+	(wire
+		(pts
+			(xy 107.95 115.57) (xy 107.95 117.475)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15f5fa14-5ba0-4d4d-b197-a18337c0ee43")
 	)
 	(wire
 		(pts
@@ -4592,6 +4772,16 @@
 			(type default)
 		)
 		(uuid "16a74cbf-6aa2-496d-b38e-462e4e630729")
+	)
+	(wire
+		(pts
+			(xy 38.1 173.99) (xy 39.37 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "179c67c5-00d3-45b9-a098-d4d16fcb8176")
 	)
 	(wire
 		(pts
@@ -4622,6 +4812,16 @@
 			(type default)
 		)
 		(uuid "19de5d74-9e03-4105-aeb4-879867a9704c")
+	)
+	(wire
+		(pts
+			(xy 23.495 41.91) (xy 33.655 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24ec416c-5d4c-4182-a625-1f881cec0b68")
 	)
 	(wire
 		(pts
@@ -4682,16 +4882,6 @@
 			(type default)
 		)
 		(uuid "28f41b32-c8da-4d23-a312-de68081cb436")
-	)
-	(wire
-		(pts
-			(xy 169.545 70.485) (xy 173.355 70.485)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2aa95aeb-a37b-41a7-92a5-24184ff817c9")
 	)
 	(wire
 		(pts
@@ -4812,6 +5002,16 @@
 			(type default)
 		)
 		(uuid "3103bd0a-f81e-4d5f-bd65-f93e4105cea7")
+	)
+	(wire
+		(pts
+			(xy 169.545 70.485) (xy 173.99 70.485)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "319aef81-98a8-44ad-b7ec-6668195ff611")
 	)
 	(wire
 		(pts
@@ -5065,7 +5265,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 173.99) (xy 48.26 179.07)
+			(xy 38.1 173.99) (xy 38.1 179.07)
 		)
 		(stroke
 			(width 0)
@@ -5415,7 +5615,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 179.07) (xy 40.64 177.8)
+			(xy 31.75 179.07) (xy 31.75 177.8)
 		)
 		(stroke
 			(width 0)
@@ -5545,16 +5745,6 @@
 	)
 	(wire
 		(pts
-			(xy 117.475 103.505) (xy 126.365 103.505)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84ba0ace-38d5-4419-a985-6cec71b86f76")
-	)
-	(wire
-		(pts
 			(xy 133.985 116.205) (xy 136.525 116.205)
 		)
 		(stroke
@@ -5645,6 +5835,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 173.99) (xy 48.26 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "894aa194-3e35-4a79-8404-4cd71837ea30")
+	)
+	(wire
+		(pts
 			(xy 159.385 29.845) (xy 156.845 29.845)
 		)
 		(stroke
@@ -5662,6 +5862,16 @@
 			(type default)
 		)
 		(uuid "8b13b47a-9297-41c8-9328-97df0930ee4d")
+	)
+	(wire
+		(pts
+			(xy 107.95 106.045) (xy 107.95 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b3185a5-4630-4991-af7b-14811ae14a5d")
 	)
 	(wire
 		(pts
@@ -5715,7 +5925,7 @@
 	)
 	(wire
 		(pts
-			(xy 169.545 60.325) (xy 173.355 60.325)
+			(xy 169.545 60.325) (xy 173.99 60.325)
 		)
 		(stroke
 			(width 0)
@@ -6035,6 +6245,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 62.865) (xy 195.58 62.865)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2619de4-81f6-4bcf-8ef7-c5c658b58314")
+	)
+	(wire
+		(pts
 			(xy 120.015 52.705) (xy 130.175 52.705)
 		)
 		(stroke
@@ -6085,7 +6305,7 @@
 	)
 	(wire
 		(pts
-			(xy 169.545 62.865) (xy 173.355 62.865)
+			(xy 169.545 62.865) (xy 173.99 62.865)
 		)
 		(stroke
 			(width 0)
@@ -6265,6 +6485,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 70.485) (xy 195.58 70.485)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db92e438-b18f-4045-8829-c785bdd5b606")
+	)
+	(wire
+		(pts
 			(xy 23.495 102.235) (xy 33.655 102.235)
 		)
 		(stroke
@@ -6282,6 +6512,16 @@
 			(type default)
 		)
 		(uuid "de758cfa-ffb6-418f-b800-99bb935569b9")
+	)
+	(wire
+		(pts
+			(xy 181.61 60.325) (xy 195.58 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e03d605b-e8d7-42b5-8fa2-2f2f3fdb28b0")
 	)
 	(wire
 		(pts
@@ -9945,6 +10185,20 @@
 		)
 		(uuid "8d159a08-19f7-4a47-8c97-44f876410b74")
 	)
+	(text "Verifier si AU_STATUS a besoin/\nest bien sur une pin d'INT"
+		(exclude_from_sim no)
+		(at 50.8 84.455 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "98ee44ad-e682-4e99-bc03-4c8359edbefd")
+	)
 	(text "MCU et capteurs"
 		(exclude_from_sim no)
 		(at 13.97 22.86 0)
@@ -10081,6 +10335,16 @@
 		)
 		(uuid "1536e6f7-ed56-478f-949d-b599ff590a47")
 	)
+	(label "AU_STATUS"
+		(at 23.495 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "154bd3fd-10ad-4ba3-904e-09b6159f7bb1")
+	)
 	(label "EV_10"
 		(at 23.495 86.995 0)
 		(effects
@@ -10152,7 +10416,7 @@
 		(uuid "25fc5aa2-e726-4dd8-99f2-04fdd3e7f740")
 	)
 	(label "A_TEMP"
-		(at 180.975 152.4 180)
+		(at 195.58 45.085 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10242,7 +10506,7 @@
 		(uuid "46cd9118-57dd-4df9-a87b-f08785162a78")
 	)
 	(label "VAC"
-		(at 195.58 45.085 180)
+		(at 194.945 62.865 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10342,7 +10606,7 @@
 		(uuid "6e1999cd-532b-4022-86c7-c4fd306bbc85")
 	)
 	(label "A_PRES"
-		(at 180.975 154.94 180)
+		(at 195.58 47.625 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10441,6 +10705,16 @@
 		)
 		(uuid "a678494f-a7dc-49c4-b684-b1473bfc0eda")
 	)
+	(label "AU_STATUS"
+		(at 185.42 70.485 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a918a458-70a6-4c73-abb0-92afe6a5d7c1")
+	)
 	(label "BOOT0"
 		(at 117.475 103.505 0)
 		(effects
@@ -10492,7 +10766,7 @@
 		(uuid "bf81e26f-bd92-4c6f-84aa-f2c9ef37780f")
 	)
 	(label "EV_P"
-		(at 195.58 47.625 180)
+		(at 194.945 60.325 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10520,16 +10794,6 @@
 			(justify left bottom)
 		)
 		(uuid "c6e6178b-0091-4de6-b734-49a8a93aae15")
-	)
-	(label "BOOT0"
-		(at 173.99 146.685 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cfbd773e-4c8b-41d0-94d2-19f6fc5d65d5")
 	)
 	(label "EV_1"
 		(at 117.475 83.185 0)
@@ -10835,6 +11099,17 @@
 			(justify left)
 		)
 		(uuid "b3e794f7-d6d4-48fa-9a9a-ade2da74abc3")
+	)
+	(hierarchical_label "AU_STATUS"
+		(shape output)
+		(at 33.655 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ba766488-e9d8-4bf9-b5e5-f305d85750dc")
 	)
 	(hierarchical_label "EV_8"
 		(shape output)
@@ -11382,6 +11657,73 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 177.8 60.325 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b0d6bbd-e010-4153-bdfa-72e4fd9ebf7e")
+		(property "Reference" "R83"
+			(at 177.8 60.325 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 181.61 61.595 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 177.8 62.103 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b11e792f-34c7-41b5-acee-1865c04b9b03")
+		)
+		(pin "1"
+			(uuid "e5fb745c-0099-4ddc-b29f-0cd478ccf7b9")
+		)
+		(instances
+			(project "12v-actuators-pcb"
+				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/f78de832-b1c2-4647-81ab-fdc60f9d045f"
+					(reference "R83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 177.8 80.645 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11585,7 +11927,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 177.8 67.945 90)
+		(at 177.8 70.485 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11593,7 +11935,7 @@
 		(dnp no)
 		(uuid "29fad644-79a6-428a-9c4d-f07c98c31abb")
 		(property "Reference" "R72"
-			(at 177.8 67.945 90)
+			(at 177.8 70.485 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11601,7 +11943,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 181.61 69.215 90)
+			(at 181.61 71.755 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11609,7 +11951,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 177.8 69.723 90)
+			(at 177.8 72.263 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11618,7 +11960,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 67.945 0)
+			(at 177.8 70.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11627,7 +11969,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 177.8 67.945 0)
+			(at 177.8 70.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12193,6 +12535,75 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 107.95 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46513565-33a9-4ba4-9baf-f72a5672e82b")
+		(property "Reference" "R82"
+			(at 109.22 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 109.22 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 106.172 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7cab58b1-36b1-4c43-86c8-f1957cb44984")
+		)
+		(pin "2"
+			(uuid "369d9405-6322-45cd-bd65-45a2668e7087")
+		)
+		(instances
+			(project "12v-actuators-pcb"
+				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/f78de832-b1c2-4647-81ab-fdc60f9d045f"
+					(reference "R82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 177.8 50.165 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12454,140 +12865,6 @@
 			(project "12v-actuators-pcb"
 				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/f78de832-b1c2-4647-81ab-fdc60f9d045f"
 					(reference "R69")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 173.355 60.325 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "504480df-aa63-4702-9250-b0d566bea85e")
-		(property "Reference" "TP9"
-			(at 174.625 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 174.625 61.5949 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 178.435 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 178.435 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 173.355 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af193aa4-731c-44eb-b1ab-0b183382d22d")
-		)
-		(instances
-			(project "12v-actuators-pcb"
-				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/f78de832-b1c2-4647-81ab-fdc60f9d045f"
-					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 173.355 70.485 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "50dddc50-d37b-4fd6-8d38-01989c0595bf")
-		(property "Reference" "TP11"
-			(at 174.625 70.485 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 174.625 71.7549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 178.435 70.485 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 178.435 70.485 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 173.355 70.485 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9f594a2b-1061-4c50-9a32-d0d924e0c312")
-		)
-		(instances
-			(project "12v-actuators-pcb"
-				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/f78de832-b1c2-4647-81ab-fdc60f9d045f"
-					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -13407,6 +13684,73 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 177.8 65.405 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71e548cc-ad7c-4d96-936d-af9b770d51b1")
+		(property "Reference" "R85"
+			(at 177.8 65.405 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 181.61 66.675 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 177.8 67.183 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8139b9e4-1c9a-4ae6-afba-0bde42022c93")
+		)
+		(pin "1"
+			(uuid "026efce8-8990-4bf3-9978-5901c62f1e6b")
+		)
+		(instances
+			(project "12v-actuators-pcb"
+				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/f78de832-b1c2-4647-81ab-fdc60f9d045f"
+					(reference "R85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 130.175 100.965 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13878,6 +14222,73 @@
 			(project "12v-actuators-pcb"
 				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/f78de832-b1c2-4647-81ab-fdc60f9d045f"
 					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 102.87 103.505 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "882c3dd0-2f4b-4500-9fdf-ad2a1866c6be")
+		(property "Reference" "J15"
+			(at 103.505 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BOOT0"
+			(at 104.775 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 102.87 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91f8b762-d352-4adf-aac3-857f5da5e9e2")
+		)
+		(pin "2"
+			(uuid "96740e36-85f3-432a-bdf0-fe85fd8476e7")
+		)
+		(instances
+			(project "12v-actuators-pcb"
+				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/f78de832-b1c2-4647-81ab-fdc60f9d045f"
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -15272,6 +15683,73 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 177.8 62.865 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b795f8cd-870f-49f3-80c6-e3d8a2a76a29")
+		(property "Reference" "R84"
+			(at 177.8 62.865 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 181.61 64.135 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 177.8 64.643 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5ccd0e79-f8ae-40fd-a7fc-51aafa636113")
+		)
+		(pin "1"
+			(uuid "c4059311-8b3b-4cce-a6fd-fb7cbe4e84dd")
+		)
+		(instances
+			(project "12v-actuators-pcb"
+				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/f78de832-b1c2-4647-81ab-fdc60f9d045f"
+					(reference "R84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 177.8 73.025 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15509,6 +15987,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 107.95 117.475 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c07d7cf6-b668-4979-b28c-cae41a13f6a7")
+		(property "Reference" "#PWR55"
+			(at 107.95 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6fc4cf3-3480-426d-90ba-69a1be8c722f")
+		)
+		(instances
+			(project "12v-actuators-pcb"
+				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/f78de832-b1c2-4647-81ab-fdc60f9d045f"
+					(reference "#PWR55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 177.8 45.085 90)
 		(unit 1)
@@ -15577,7 +16121,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 177.8 65.405 90)
+		(at 177.8 67.945 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15585,7 +16129,7 @@
 		(dnp no)
 		(uuid "c43c9238-2d7d-4bc1-9212-4d82cbf09581")
 		(property "Reference" "R71"
-			(at 177.8 65.405 90)
+			(at 177.8 67.945 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15593,7 +16137,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 181.61 66.675 90)
+			(at 181.61 69.215 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15601,7 +16145,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 177.8 67.183 90)
+			(at 177.8 69.723 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15610,7 +16154,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 65.405 0)
+			(at 177.8 67.945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15619,7 +16163,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 177.8 65.405 0)
+			(at 177.8 67.945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15844,75 +16388,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 173.355 62.865 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c8335e03-ae88-49d4-b79f-fa6aaabd32d5")
-		(property "Reference" "TP10"
-			(at 174.625 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 174.625 64.1349 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 178.435 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 178.435 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 173.355 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3443a36d-88f3-4c58-882f-6865f4290353")
-		)
-		(instances
-			(project "12v-actuators-pcb"
-				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/f78de832-b1c2-4647-81ab-fdc60f9d045f"
-					(reference "TP10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
-		(at 40.64 177.8 0)
+		(at 31.75 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15920,7 +16397,7 @@
 		(dnp no)
 		(uuid "c8c81008-16a8-4070-aa19-f5654109e0c5")
 		(property "Reference" "#PWR101"
-			(at 40.64 181.61 0)
+			(at 31.75 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15928,8 +16405,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 41.91 173.99 0)
+		(property "Value" "+5VL"
+			(at 33.02 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15937,7 +16414,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 177.8 0)
+			(at 31.75 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15946,7 +16423,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 177.8 0)
+			(at 31.75 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15955,7 +16432,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 177.8 0)
+			(at 31.75 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16458,6 +16935,73 @@
 			(project "12v-actuators-pcb"
 				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/f78de832-b1c2-4647-81ab-fdc60f9d045f"
 					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 43.18 173.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e0b83c41-7057-4965-9d86-e7bfe8990dc1")
+		(property "Reference" "R86"
+			(at 43.18 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 46.99 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 43.18 175.768 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1f7abfe1-d0f5-4f92-b01b-bc6c2a13f650")
+		)
+		(pin "1"
+			(uuid "00463f6b-3e62-4984-8f57-067c2f1c3949")
+		)
+		(instances
+			(project "12v-actuators-pcb"
+				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/f78de832-b1c2-4647-81ab-fdc60f9d045f"
+					(reference "R86")
 					(unit 1)
 				)
 			)
