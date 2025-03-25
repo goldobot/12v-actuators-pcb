@@ -1311,8 +1311,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 1.27 11.43 0)
+			(property "Reference" "U6"
+				(at 0 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1320,14 +1320,14 @@
 				)
 			)
 			(property "Value" "TPS82130"
-				(at 5.08 8.89 0)
+				(at 0 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Package_LGA:Texas_MicroSiP-8-1EP_2.8x3.0mm_P0.65mm_EP1.1x1.9mm_SMD_ThermalVias"
+			(property "Footprint" "Goldorak:MicroSiP"
 				(at 0 -16.51 0)
 				(effects
 					(font
@@ -1345,7 +1345,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "17V Input 3A Step-Down Converter MicroSiP Module with Integrated Inductor, μSiL-8"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -8695,7 +8695,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Goldorak:MicroSiP"
+		(property "Footprint" "12V-actuators_pcb:MicroSiP"
 			(at 201.93 73.66 0)
 			(effects
 				(font
