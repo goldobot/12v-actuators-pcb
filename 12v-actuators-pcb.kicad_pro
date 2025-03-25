@@ -428,7 +428,7 @@
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
-      "lib_symbol_issues": "warning",
+      "lib_symbol_issues": "ignore",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -674,7 +674,7 @@
       "filter_string": "",
       "group_symbols": true,
       "name": "",
-      "sort_asc": false,
+      "sort_asc": true,
       "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
