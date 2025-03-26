@@ -1945,6 +1945,108 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+5VL"
 			(power)
 			(pin_names
@@ -2559,6 +2661,18 @@
 		(uuid "2b873353-bf41-47b8-94c9-d837e2f0c7c1")
 	)
 	(junction
+		(at 147.955 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31278431-a6d4-49ec-b0d6-e0f0a7e4ca06")
+	)
+	(junction
+		(at 160.655 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37f19cf6-6f05-47fb-b015-22578593f51d")
+	)
+	(junction
 		(at 232.41 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2575,6 +2689,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45612e0c-4669-4f97-b540-9c8d7ef0a6f2")
+	)
+	(junction
+		(at 154.305 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55357741-fb12-4985-b729-56bf8c49f267")
 	)
 	(junction
 		(at 69.85 107.95)
@@ -2641,6 +2761,16 @@
 			(type default)
 		)
 		(uuid "02b77fbf-a418-4d5a-8b2e-90517e5bdd9e")
+	)
+	(wire
+		(pts
+			(xy 141.605 186.69) (xy 147.955 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06a893f2-0648-45dd-9f28-0db29d0070f6")
 	)
 	(wire
 		(pts
@@ -2948,6 +3078,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.305 186.69) (xy 160.655 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "591d6856-78d9-496b-b6e9-3857d6b1da2f")
+	)
+	(wire
+		(pts
 			(xy 69.85 102.87) (xy 69.85 107.95)
 		)
 		(stroke
@@ -2985,6 +3125,16 @@
 			(type default)
 		)
 		(uuid "6431d385-2cc2-4c6c-bfec-ddc85683a7f4")
+	)
+	(wire
+		(pts
+			(xy 147.955 186.69) (xy 154.305 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64c447d0-dff4-4796-b864-753598803965")
 	)
 	(wire
 		(pts
@@ -3373,6 +3523,18 @@
 			(type none)
 		)
 		(uuid 40b71bca-33b1-435c-8d57-40232e84b16d)
+	)
+	(rectangle
+		(start 130.81 173.355)
+		(end 172.72 194.945)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 771b419a-69a8-488e-8f12-4b3cf0e60b74)
 	)
 	(rectangle
 		(start 49.53 37.465)
@@ -6772,6 +6934,17 @@
 		)
 		(uuid "27f3c0c5-3414-44af-be65-6182704a727d")
 	)
+	(text "Trous de montage"
+		(exclude_from_sim no)
+		(at 132.08 175.895 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d6a10e5-a9ba-4061-9d31-0cb80cd83762")
+	)
 	(text "TOP"
 		(exclude_from_sim no)
 		(at 13.97 22.86 0)
@@ -7156,6 +7329,72 @@
 			(justify left bottom)
 		)
 		(uuid "ee168d70-e420-498f-8c0f-186cef5cdafb")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 160.655 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09989996-fa69-4571-9856-655c7d50ed29")
+		(property "Reference" "#PWR74"
+			(at 160.655 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.655 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.655 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.655 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "888f8a28-e4c8-436c-b60f-4adb83077c38")
+		)
+		(instances
+			(project "12v-actuators-pcb"
+				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
+					(reference "#PWR74")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
@@ -7597,6 +7836,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 154.305 184.15 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d51849b-3bc2-4a45-b0a2-b395ce239a0e")
+		(property "Reference" "H3"
+			(at 153.035 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 157.48 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 154.305 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.305 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 154.305 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "723d4d3a-a4db-4a53-8018-302fe8929d85")
+		)
+		(instances
+			(project "12v-actuators-pcb"
+				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5VP")
 		(at 127 142.24 0)
 		(unit 1)
@@ -7948,6 +8254,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 141.605 184.15 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "72c9bf2c-34b6-4da1-a72d-c1b6a6ba52a6")
+		(property "Reference" "H1"
+			(at 140.335 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 144.78 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 141.605 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 141.605 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 141.605 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bdca2469-541c-4d52-9ecd-dda3bc0a70b5")
+		)
+		(instances
+			(project ""
+				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5VL")
 		(at 208.28 97.79 0)
 		(unit 1)
@@ -8073,6 +8446,73 @@
 			(project "12v-actuators-pcb"
 				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
 					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 160.655 184.15 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "8403ae89-039b-43d7-bf8b-91f69fa136a4")
+		(property "Reference" "H4"
+			(at 159.385 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 163.83 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 160.655 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.655 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 160.655 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1186b5fb-77d1-4c09-9615-614a26aac9f7")
+		)
+		(instances
+			(project "12v-actuators-pcb"
+				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -8562,6 +9002,73 @@
 			(project "12v-actuators-pcb"
 				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 147.955 184.15 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c525cef8-942c-47c1-9b48-1a872a5f40ff")
+		(property "Reference" "H2"
+			(at 146.685 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 151.13 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 147.955 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.955 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 147.955 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63fd9df5-c986-485e-8a3a-ff866e2c8ffb")
+		)
+		(instances
+			(project "12v-actuators-pcb"
+				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
+					(reference "H2")
 					(unit 1)
 				)
 			)

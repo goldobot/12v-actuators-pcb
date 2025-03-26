@@ -4575,7 +4575,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.885 106.68) (xy 114.3 106.68)
+			(xy 95.885 106.68) (xy 124.46 106.68)
 		)
 		(stroke
 			(width 0)
@@ -5005,16 +5005,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 106.68) (xy 124.46 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3103bd0a-f81e-4d5f-bd65-f93e4105cea7")
-	)
-	(wire
-		(pts
 			(xy 157.48 73.66) (xy 161.925 73.66)
 		)
 		(stroke
@@ -5032,16 +5022,6 @@
 			(type default)
 		)
 		(uuid "32f2bf84-9f51-4232-b1d7-fe869617b3c1")
-	)
-	(wire
-		(pts
-			(xy 121.92 93.98) (xy 124.46 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "341afde0-098e-4cc4-8890-1e884dd416c8")
 	)
 	(wire
 		(pts
@@ -5145,7 +5125,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 83.82) (xy 161.925 83.82)
+			(xy 157.48 83.82) (xy 183.515 83.82)
 		)
 		(stroke
 			(width 0)
@@ -6235,7 +6215,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 81.28) (xy 161.925 81.28)
+			(xy 157.48 81.28) (xy 183.515 81.28)
 		)
 		(stroke
 			(width 0)
@@ -6565,16 +6545,6 @@
 	)
 	(wire
 		(pts
-			(xy 169.545 81.28) (xy 183.515 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4315110-2600-4185-9841-09b319f78d11")
-	)
-	(wire
-		(pts
 			(xy 96.52 59.69) (xy 102.87 59.69)
 		)
 		(stroke
@@ -6582,16 +6552,6 @@
 			(type default)
 		)
 		(uuid "e513aec4-fa5d-4a64-be32-39d847cc4e62")
-	)
-	(wire
-		(pts
-			(xy 169.545 83.82) (xy 183.515 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e539c17f-1a23-40f4-9926-4e43cd66aa61")
 	)
 	(wire
 		(pts
@@ -6705,7 +6665,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 93.98) (xy 114.3 93.98)
+			(xy 105.41 93.98) (xy 124.46 93.98)
 		)
 		(stroke
 			(width 0)
@@ -10206,6 +10166,18 @@
 		)
 		(uuid "136e7804-820f-432e-aaf5-9a232efac0e3")
 	)
+	(text "Medhi dit que toute les pins peuvent être cablé en INT\nmais que deux INT ne peuvent pas être configuré sur des\npins de même index et de banques différentes"
+		(exclude_from_sim no)
+		(at 33.02 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "2138aac8-575e-4a06-a40a-72e2181fba37")
+	)
 	(text "la sortie AN \nn'est pas utilisé\nmais au cas ou"
 		(exclude_from_sim no)
 		(at 143.51 172.085 0)
@@ -11813,73 +11785,6 @@
 			(project "12v-actuators-pcb"
 				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/f78de832-b1c2-4647-81ab-fdc60f9d045f"
 					(reference "R83")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 165.735 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "21325fb5-c036-4702-9313-d7bbeee2aafd")
-		(property "Reference" "R76"
-			(at 165.735 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 169.545 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 165.735 85.598 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.735 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 165.735 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8264cfe8-7263-4913-88f1-c34c137dce49")
-		)
-		(pin "1"
-			(uuid "36ed5ccf-ea1b-4624-aece-8d2757a708bf")
-		)
-		(instances
-			(project "12v-actuators-pcb"
-				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/f78de832-b1c2-4647-81ab-fdc60f9d045f"
-					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -14881,73 +14786,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 118.11 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8d3d93da-ec98-4e7a-a024-f289b93ccff8")
-		(property "Reference" "R53"
-			(at 118.11 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 121.92 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 118.11 95.758 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 118.11 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "89af6321-5fc1-4247-94bd-263677535f01")
-		)
-		(pin "1"
-			(uuid "65b665cb-949a-496a-ac9f-efdb1454d19b")
-		)
-		(instances
-			(project "12v-actuators-pcb"
-				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/f78de832-b1c2-4647-81ab-fdc60f9d045f"
-					(reference "R53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 233.68 143.51 180)
 		(unit 1)
@@ -15222,73 +15060,6 @@
 			(project "12v-actuators-pcb"
 				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/f78de832-b1c2-4647-81ab-fdc60f9d045f"
 					(reference "#PWR48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 118.11 106.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "982bf271-1255-4e08-836e-426a7202a686")
-		(property "Reference" "R58"
-			(at 118.11 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 121.92 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 118.11 108.458 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 118.11 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6662d1e9-d678-42af-9d87-69900787d2ea")
-		)
-		(pin "1"
-			(uuid "e0f30f97-e7ec-4213-bca8-07b40f3b5f8c")
-		)
-		(instances
-			(project "12v-actuators-pcb"
-				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/f78de832-b1c2-4647-81ab-fdc60f9d045f"
-					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -16077,73 +15848,6 @@
 			(project "12v-actuators-pcb"
 				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/f78de832-b1c2-4647-81ab-fdc60f9d045f"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 165.735 81.28 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bf2b493a-260a-49d0-843e-d2bba4531c66")
-		(property "Reference" "R75"
-			(at 165.735 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 169.545 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 165.735 83.058 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.735 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 165.735 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5c413f7d-36d3-483a-8667-bf6ce5659be1")
-		)
-		(pin "1"
-			(uuid "ba277bae-52ff-4c42-821f-580f0873a989")
-		)
-		(instances
-			(project "12v-actuators-pcb"
-				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/f78de832-b1c2-4647-81ab-fdc60f9d045f"
-					(reference "R75")
 					(unit 1)
 				)
 			)

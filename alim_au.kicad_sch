@@ -7748,20 +7748,6 @@
 		)
 		(uuid "7149e3b1-6b8a-4f6a-bbb9-f6d8e01bb0b9")
 	)
-	(text "verifier empreinte diode (petite)"
-		(exclude_from_sim no)
-		(at 149.225 114.3 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "8e5cdb77-8261-49bc-a77b-1b96293e28a2")
-	)
 	(text "Commutation de l'alimentation PWR_12V\nvia l'arrêt d'urgence"
 		(exclude_from_sim no)
 		(at 40.005 59.055 0)
@@ -8340,7 +8326,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "1N5819WS"
 			(at 179.705 137.16 0)
 			(effects
 				(font
@@ -8348,7 +8334,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-882"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 179.705 132.08 0)
 			(effects
 				(font
@@ -8367,6 +8353,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 179.705 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C191023"
 			(at 179.705 132.08 0)
 			(effects
 				(font
@@ -8807,7 +8802,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "1N5819WS"
 			(at 180.0225 124.46 0)
 			(effects
 				(font
@@ -8815,7 +8810,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-882"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 179.705 127 0)
 			(effects
 				(font
@@ -8834,6 +8829,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 179.705 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C191023"
 			(at 179.705 127 0)
 			(effects
 				(font
@@ -10841,7 +10845,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 89.535 72.39 0)
 			(effects
 				(font
