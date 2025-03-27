@@ -14469,7 +14469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
+		(property "Footprint" "12V-actuators_pcb:QFN-48-1EP_7x7mm_P0.5mm_EP5.5x5.5mm"
 			(at 127 129.54 0)
 			(effects
 				(font
