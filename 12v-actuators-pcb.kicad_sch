@@ -2784,6 +2784,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 111.76) (xy 148.59 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07c8e913-1866-4087-bd97-36f1eda36e84")
+	)
+	(wire
+		(pts
 			(xy 250.19 110.49) (xy 255.27 110.49)
 		)
 		(stroke
@@ -2906,7 +2916,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 115.57) (xy 148.59 115.57)
+			(xy 129.54 118.11) (xy 148.59 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3401,7 +3411,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 118.11) (xy 148.59 118.11)
+			(xy 129.54 120.65) (xy 148.59 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3482,7 +3492,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 111.76) (xy 148.59 111.76)
+			(xy 129.54 114.3) (xy 148.59 114.3)
 		)
 		(stroke
 			(width 0)
@@ -7181,7 +7191,7 @@
 		(uuid "9272811b-6b92-4273-8d6b-b4662aaa9ac7")
 	)
 	(label "DS_COMP"
-		(at 135.89 115.57 0)
+		(at 135.89 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7200,8 +7210,18 @@
 		)
 		(uuid "a36afec1-6862-4fa1-b8a5-bfb542adc64d")
 	)
-	(label "VAC"
+	(label "EV_12"
 		(at 135.89 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae8df729-d5f2-4d31-a452-29de0373599a")
+	)
+	(label "VAC"
+		(at 135.89 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7241,7 +7261,7 @@
 		(uuid "c1836abb-cdde-4029-b36d-2bde225114f9")
 	)
 	(label "DS_TURB"
-		(at 135.89 118.11 0)
+		(at 135.89 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9448,7 +9468,7 @@
 			(uuid "9c7c1999-a7e6-40af-9be7-abbaef4e6170")
 		)
 		(pin "DS_COMP" bidirectional
-			(at 129.54 115.57 0)
+			(at 129.54 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9468,7 +9488,7 @@
 			(uuid "b86d4fea-1b39-449f-bbbb-e7b7403e76eb")
 		)
 		(pin "DS_TURB" bidirectional
-			(at 129.54 118.11 0)
+			(at 129.54 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9528,7 +9548,7 @@
 			(uuid "83529ad6-457b-47f7-9c54-dc990e55a660")
 		)
 		(pin "VAC" input
-			(at 129.54 111.76 0)
+			(at 129.54 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9606,6 +9626,16 @@
 				(justify right)
 			)
 			(uuid "e1184851-ac42-4a56-bc0c-1483973fb554")
+		)
+		(pin "EV_12" input
+			(at 129.54 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d53b067c-d388-46a6-b199-03cc08078f19")
 		)
 		(instances
 			(project "12v-actuators-pcb"
@@ -9773,7 +9803,7 @@
 			(uuid "1bdafb5e-20fa-418e-8199-d4ab37ef301e")
 		)
 		(pin "DS_TURB" output
-			(at 148.59 118.11 180)
+			(at 148.59 120.65 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9803,7 +9833,7 @@
 			(uuid "f43cd6db-d40c-4358-b9d9-25d7bc4db716")
 		)
 		(pin "DS_COMP" output
-			(at 148.59 115.57 180)
+			(at 148.59 118.11 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9813,7 +9843,7 @@
 			(uuid "82fed118-a4c2-4c8b-ad61-62bb3fa1dcb2")
 		)
 		(pin "VAC" output
-			(at 148.59 111.76 180)
+			(at 148.59 114.3 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9971,6 +10001,16 @@
 				(justify left)
 			)
 			(uuid "70cd26d3-6078-4c52-b94c-b402f6e9115a")
+		)
+		(pin "EV_12" output
+			(at 148.59 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9c2adc7a-6a49-4111-91e7-6674de175f3b")
 		)
 		(instances
 			(project "12v-actuators-pcb"

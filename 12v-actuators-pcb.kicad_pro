@@ -556,7 +556,7 @@
         "microvia_diameter": 0.8,
         "microvia_drill": 0.45,
         "name": "Signal",
-        "pcb_color": "rgb(0, 194, 0)",
+        "pcb_color": "rgb(129, 255, 122)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -635,10 +635,6 @@
       {
         "netclass": "Bus",
         "pattern": "*RX*"
-      },
-      {
-        "netclass": "Bus",
-        "pattern": ""
       }
     ]
   },
