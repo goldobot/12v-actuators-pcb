@@ -2983,6 +2983,12 @@
 		)
 	)
 	(junction
+		(at 243.84 60.325)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "182de684-0896-4f38-a42b-332fcb48aa1e")
+	)
+	(junction
 		(at 250.825 60.325)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3089,6 +3095,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7edd2a4c-5daa-43f7-819f-5e0e47a92f83")
+	)
+	(junction
+		(at 243.84 89.535)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8301f1c8-624f-414a-bbe9-2a01bc70acd8")
 	)
 	(junction
 		(at 227.965 89.535)
@@ -3209,7 +3221,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.965 89.535) (xy 250.825 89.535)
+			(xy 227.965 89.535) (xy 243.84 89.535)
 		)
 		(stroke
 			(width 0.5)
@@ -3311,6 +3323,16 @@
 			(color 0 0 0 1)
 		)
 		(uuid "18cc376b-9716-4ec6-8363-db339ab7a872")
+	)
+	(wire
+		(pts
+			(xy 243.84 60.325) (xy 250.825 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f5e1e75-8633-4d04-b518-8875b981ca92")
 	)
 	(wire
 		(pts
@@ -3422,6 +3444,16 @@
 			(type default)
 		)
 		(uuid "3db9a378-2dda-4cba-92e2-63106f4a6029")
+	)
+	(wire
+		(pts
+			(xy 243.84 71.755) (xy 243.84 73.025)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3df6d250-be00-4ca7-acf7-da28b5b7cf0c")
 	)
 	(wire
 		(pts
@@ -3858,7 +3890,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.965 60.325) (xy 250.825 60.325)
+			(xy 227.965 60.325) (xy 243.84 60.325)
 		)
 		(stroke
 			(width 0)
@@ -3939,6 +3971,17 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 80.645) (xy 243.84 89.535)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "b5a36cc8-a53c-4685-bc31-bfb07df3ecb7")
+	)
+	(wire
+		(pts
 			(xy 126.365 62.23) (xy 126.365 67.31)
 		)
 		(stroke
@@ -3998,6 +4041,16 @@
 			(type default)
 		)
 		(uuid "c125ed63-9217-475f-87b5-82f3238804a4")
+	)
+	(wire
+		(pts
+			(xy 243.84 60.325) (xy 243.84 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9b03000-4e74-4660-91b7-1c322aa0ac6f")
 	)
 	(wire
 		(pts
@@ -4100,6 +4153,17 @@
 			(color 0 0 0 1)
 		)
 		(uuid "dc273c42-a2a4-43a2-b677-1fbfa0b7bcf4")
+	)
+	(wire
+		(pts
+			(xy 243.84 89.535) (xy 250.825 89.535)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "dd9e89ff-518f-460c-98b2-d5a79f1c8cd2")
 	)
 	(wire
 		(pts
@@ -7748,6 +7812,17 @@
 		)
 		(uuid "7149e3b1-6b8a-4f6a-bbb9-f6d8e01bb0b9")
 	)
+	(text "Pour SW_AU=20V, SW_AU/2= ~10,7V dans cette configuration"
+		(exclude_from_sim no)
+		(at 43.18 159.385 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79d1eb6c-ddf4-40f5-a73e-5be0e9c28212")
+	)
 	(text "Commutation de l'alimentation PWR_12V\nvia l'arrêt d'urgence"
 		(exclude_from_sim no)
 		(at 40.005 59.055 0)
@@ -7803,6 +7878,17 @@
 			(justify left bottom)
 		)
 		(uuid "b1076163-0d2e-4ff4-afea-ff23223e45a6")
+	)
+	(text "+5VL = 5L (ou 5V_USB) - 0.6V"
+		(exclude_from_sim no)
+		(at 154.305 142.875 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9fcaf64-9de1-45a2-85b7-1cf16ea23d3f")
 	)
 	(label "SW_AU{slash}2"
 		(at 70.485 131.445 180)
@@ -8785,6 +8871,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 243.84 76.835 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e0ba59f-e982-45ab-a4c6-adffd7448712")
+		(property "Reference" "R30"
+			(at 237.49 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 237.49 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 242.062 76.835 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cdae2d70-43e2-4e12-a916-1cd217692b4f")
+		)
+		(pin "2"
+			(uuid "8e8044fe-449d-4f15-bc4c-03b0e21e07f2")
+		)
+		(instances
+			(project "12v-actuators-pcb"
+				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/a9998e65-7bac-4337-98c8-7de7c845405f"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 179.705 127 180)
 		(unit 1)
@@ -8951,20 +9106,11 @@
 		(at 64.135 77.47 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3060da6c-5fcd-4554-a999-b8bb9dba8a6e")
 		(property "Reference" "R?"
-			(at 64.135 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
 			(at 64.135 74.93 90)
 			(effects
 				(font
@@ -8972,7 +9118,15 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Value" "0"
+			(at 64.135 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "12V-actuators_pcb:R_0402_1005Metric_jumperClosed"
 			(at 64.135 75.692 90)
 			(effects
 				(font
@@ -9292,7 +9446,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 187.6552 67.31 0)
 			(effects
 				(font
@@ -9672,7 +9826,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 251.7902 135.255 0)
 			(effects
 				(font
@@ -9871,6 +10025,75 @@
 			(project "12v-actuators-pcb"
 				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/a9998e65-7bac-4337-98c8-7de7c845405f"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 243.84 67.945 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57af074f-4904-4126-81c0-1293fb204d75")
+		(property "Reference" "D20"
+			(at 237.49 67.945 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 237.49 70.485 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 243.84 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2a195ce-2450-47d2-b86c-c4319fc94679")
+		)
+		(pin "2"
+			(uuid "41461448-f476-4f8d-8299-bb4adc84f230")
+		)
+		(instances
+			(project "12v-actuators-pcb"
+				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/a9998e65-7bac-4337-98c8-7de7c845405f"
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -11287,7 +11510,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 225.1202 135.255 0)
 			(effects
 				(font

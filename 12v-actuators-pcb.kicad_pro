@@ -480,6 +480,40 @@
       },
       {
         "bus_width": 12,
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.25,
+        "line_style": 0,
+        "microvia_diameter": 0.8,
+        "microvia_drill": 0.45,
+        "name": "Bus",
+        "pcb_color": "rgb(255, 153, 0)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.45,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.25,
+        "line_style": 0,
+        "microvia_diameter": 0.8,
+        "microvia_drill": 0.45,
+        "name": "Low_Power",
+        "pcb_color": "rgb(132, 132, 0)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.45,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
         "clearance": 0.175,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -488,9 +522,43 @@
         "microvia_diameter": 0.8,
         "microvia_drill": 0.45,
         "name": "Min",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(194, 194, 194)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
+        "via_diameter": 0.8,
+        "via_drill": 0.45,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.25,
+        "line_style": 0,
+        "microvia_diameter": 0.8,
+        "microvia_drill": 0.45,
+        "name": "Power",
+        "pcb_color": "rgb(132, 0, 132)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.45,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.25,
+        "line_style": 0,
+        "microvia_diameter": 0.8,
+        "microvia_drill": 0.45,
+        "name": "Signal",
+        "pcb_color": "rgb(0, 194, 0)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.45,
         "wire_width": 6
@@ -501,17 +569,78 @@
     },
     "net_colors": {
       "+3.3V": "rgb(194, 194, 0)",
-      "+5VL": "rgb(194, 0, 0)",
-      "+5VP": "rgb(194, 0, 0)",
-      "/5L": "rgb(194, 0, 0)",
-      "/5V_USB": "rgb(194, 0, 0)",
+      "+5VL": "rgb(132, 0, 0)",
+      "+5VP": "rgb(132, 0, 0)",
+      "/5L": "rgb(132, 0, 0)",
+      "/5V_USB": "rgb(132, 0, 0)",
       "/PWR_12V": "rgb(207, 90, 255)",
       "/VBATT_12V": "rgb(132, 0, 132)",
       "GND": "rgb(88, 90, 255)",
       "GNDPWR": "rgb(123, 185, 255)"
     },
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Low_Power",
+        "pattern": "+*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "*12V*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "*PWR*"
+      },
+      {
+        "netclass": "Low_Power",
+        "pattern": "*_EV*"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "*/EV*"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "*_J*"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "*TP*"
+      },
+      {
+        "netclass": "Low_Power",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "*USB_*"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "*CAN*"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "*SDA*"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "*SCL*"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "*TX*"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "*RX*"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": ""
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
