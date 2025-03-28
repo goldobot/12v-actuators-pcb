@@ -8075,7 +8075,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 251.7902 78.105 0)
 			(effects
 				(font
@@ -8642,7 +8642,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "RS3J R6"
 			(at 103.505 67.31 90)
 			(effects
 				(font
@@ -8670,7 +8670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switching 600V 3A"
 			(at 102.235 62.23 0)
 			(effects
 				(font
@@ -9367,7 +9367,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 			(at 238.125 122.555 0)
 			(effects
 				(font
@@ -9695,7 +9695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "860010474013"
 			(at 128.905 73.66 0)
 			(effects
 				(font
@@ -11048,7 +11048,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a55bf8d8-dd55-4697-98bd-2664941f79eb")
 		(property "Reference" "D?"
 			(at 92.075 71.755 90)
@@ -11059,17 +11058,18 @@
 				(justify left)
 			)
 		)
-		(property "Value" "14.6V"
+		(property "Value" "MM3Z15VST1G"
 			(at 92.075 74.295 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
-			(at 89.535 72.39 0)
+			(at 82.804 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11086,13 +11086,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 89.535 72.39 0)
+		(property "Description" "14.6V"
+			(at 94.488 74.168 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11125,7 +11124,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "acf436a5-fe4e-49ec-af30-cd8bdc08fc84")
-		(property "Reference" "R89"
+		(property "Reference" "R62"
 			(at 132.08 156.21 0)
 			(effects
 				(font
@@ -11177,7 +11176,7 @@
 		(instances
 			(project "12v-actuators-pcb"
 				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/a9998e65-7bac-4337-98c8-7de7c845405f"
-					(reference "R89")
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -11228,7 +11227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "860010474013"
 			(at 125.095 73.66 0)
 			(effects
 				(font
@@ -11425,7 +11424,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "430pF"
+		(property "Value" "470pF"
 			(at 202.565 85.725 0)
 			(effects
 				(font
