@@ -799,20 +799,20 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
-          "label": "JLCPCB",
-          "name": "JLCPCB",
-          "show": false
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Value"
+      "sort_field": "LCSC"
     },
     "connection_grid_size": 50.0,
     "drawing": {
