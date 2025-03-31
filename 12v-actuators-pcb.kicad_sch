@@ -7252,7 +7252,7 @@
 		)
 		(uuid "7da1a3da-4453-4d0b-b256-3b3e1ea5e4a8")
 	)
-	(label "USB_DN"
+	(label "USB_N"
 		(at 193.04 74.93 180)
 		(effects
 			(font
@@ -7372,7 +7372,7 @@
 		)
 		(uuid "c955cd79-af31-4363-bc76-4171a215b22f")
 	)
-	(label "USB_DP"
+	(label "USB_P"
 		(at 185.42 72.39 0)
 		(effects
 			(font
@@ -10272,7 +10272,7 @@
 			)
 			(uuid "09e3b2c7-86c3-49ac-ab8d-d3537a7481a7")
 		)
-		(pin "USB_DP" bidirectional
+		(pin "USB_P" bidirectional
 			(at 179.07 72.39 0)
 			(effects
 				(font
@@ -10302,7 +10302,7 @@
 			)
 			(uuid "b4a9e869-a79f-4879-9e0a-af978d376ae9")
 		)
-		(pin "USB_DN" bidirectional
+		(pin "USB_N" bidirectional
 			(at 179.07 74.93 0)
 			(effects
 				(font

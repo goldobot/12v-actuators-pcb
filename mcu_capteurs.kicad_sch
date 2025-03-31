@@ -10679,7 +10679,7 @@
 		)
 		(uuid "0293b5f4-dbbd-469e-839a-dfe5b4b52f1e")
 	)
-	(label "USB_DN"
+	(label "USB_N"
 		(at 194.31 76.2 180)
 		(effects
 			(font
@@ -10849,7 +10849,7 @@
 		)
 		(uuid "2381f557-5526-4b41-b2b9-f95632d9612e")
 	)
-	(label "USB_DN"
+	(label "USB_N"
 		(at 24.13 118.11 0)
 		(effects
 			(font
@@ -10869,7 +10869,7 @@
 		)
 		(uuid "25cabb2b-9f10-4ae1-bfdf-821895d70297")
 	)
-	(label "USB_DP"
+	(label "USB_P"
 		(at 194.31 78.74 180)
 		(effects
 			(font
@@ -10959,7 +10959,7 @@
 		)
 		(uuid "372425e3-b4a6-43b4-8391-3ae28af015c2")
 	)
-	(label "USB_DP"
+	(label "USB_P"
 		(at 24.13 121.92 0)
 		(effects
 			(font
@@ -10969,7 +10969,7 @@
 		)
 		(uuid "383f8bae-ac5e-402d-80e7-04133e8ab3cf")
 	)
-	(label "USB_DN_J"
+	(label "USB_J_N"
 		(at 172.72 76.2 180)
 		(effects
 			(font
@@ -11579,7 +11579,7 @@
 		)
 		(uuid "d757ca2a-6980-4644-a85f-f91344f5512b")
 	)
-	(label "USB_DP_J"
+	(label "USB_J_P"
 		(at 172.72 78.74 180)
 		(effects
 			(font
@@ -11877,7 +11877,7 @@
 		)
 		(uuid "2bff23f7-b2da-42ec-a327-10bfb98688d2")
 	)
-	(hierarchical_label "USB_DP"
+	(hierarchical_label "USB_P"
 		(shape bidirectional)
 		(at 34.29 121.92 0)
 		(effects
@@ -12009,7 +12009,7 @@
 		)
 		(uuid "c5ea1e57-f43d-44e5-bdbd-d27a0ac52930")
 	)
-	(hierarchical_label "USB_DN"
+	(hierarchical_label "USB_N"
 		(shape bidirectional)
 		(at 34.29 118.11 0)
 		(effects
