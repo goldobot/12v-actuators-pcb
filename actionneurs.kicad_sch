@@ -11933,9 +11933,9 @@
 		(at 238.76 52.07 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "267ca7c9-3b73-4ece-b95d-e247046fe9ec")
 		(property "Reference" "R10"
 			(at 238.76 49.53 90)
