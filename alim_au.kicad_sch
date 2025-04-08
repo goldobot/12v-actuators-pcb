@@ -3073,6 +3073,12 @@
 		(uuid "58585ee0-8736-4a66-b529-76c693932f90")
 	)
 	(junction
+		(at 124.46 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6cda11fd-a850-4702-b5b2-4c6d4e7e70cb")
+	)
+	(junction
 		(at 126.365 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3107,6 +3113,12 @@
 		(diameter 0)
 		(color 0 0 0 1)
 		(uuid "83b8e280-cf88-46b5-89a6-8f09631f7aa4")
+	)
+	(junction
+		(at 138.43 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "892ad0a6-87e5-4659-a412-90b235da455c")
 	)
 	(junction
 		(at 238.125 135.255)
@@ -3211,7 +3223,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 154.305) (xy 124.46 159.385)
+			(xy 124.46 154.305) (xy 124.46 162.56)
 		)
 		(stroke
 			(width 0)
@@ -3323,6 +3335,17 @@
 			(color 0 0 0 1)
 		)
 		(uuid "18cc376b-9716-4ec6-8363-db339ab7a872")
+	)
+	(wire
+		(pts
+			(xy 138.43 162.56) (xy 138.43 166.37)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "1d55c0c4-5083-4c44-b50c-136edf2ada6a")
 	)
 	(wire
 		(pts
@@ -3494,6 +3517,16 @@
 			(type default)
 		)
 		(uuid "447dce63-dc5a-4d89-a7d1-3ee49f7bb764")
+	)
+	(wire
+		(pts
+			(xy 124.46 162.56) (xy 128.905 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45c3e202-b0f5-45cd-9990-e0d7a396e850")
 	)
 	(wire
 		(pts
@@ -3682,6 +3715,17 @@
 			(type default)
 		)
 		(uuid "77cabc42-3a9a-4b71-b46d-1414d513d837")
+	)
+	(wire
+		(pts
+			(xy 133.985 162.56) (xy 138.43 162.56)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "792073ff-1bbd-4851-b1b4-e798eb3206be")
 	)
 	(wire
 		(pts
@@ -4003,6 +4047,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 162.56) (xy 124.46 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9e6f27d-f7a2-45d6-add0-f1c1998a87fc")
+	)
+	(wire
+		(pts
 			(xy 126.365 67.31) (xy 126.365 71.12)
 		)
 		(stroke
@@ -4262,7 +4316,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 154.305) (xy 138.43 159.385)
+			(xy 138.43 154.305) (xy 138.43 162.56)
 		)
 		(stroke
 			(width 0.5)
@@ -4381,8 +4435,8 @@
 		(uuid 7257d438-65e0-486c-b125-b2a4bff8a0a6)
 	)
 	(rectangle
-		(start 121.285 144.78)
-		(end 144.145 167.64)
+		(start 120.65 145.415)
+		(end 143.51 175.26)
 		(stroke
 			(width 0)
 			(type dash)
@@ -8134,7 +8188,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 138.43 159.385 0)
+		(at 138.43 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8142,7 +8196,7 @@
 		(dnp no)
 		(uuid "0284add3-a608-4d53-bece-6b877e56b5aa")
 		(property "Reference" "#PWR73"
-			(at 138.43 164.465 0)
+			(at 138.43 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8151,7 +8205,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 138.43 164.465 0)
+			(at 138.43 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8159,7 +8213,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 160.655 0)
+			(at 138.43 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8168,7 +8222,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 160.655 0)
+			(at 138.43 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8177,7 +8231,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 159.385 0)
+			(at 138.43 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8349,7 +8403,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 159.385 0)
+		(at 124.46 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8358,7 +8412,7 @@
 		(fields_autoplaced yes)
 		(uuid "11f12dfc-31a1-4784-ae4b-df8a31cf4cfd")
 		(property "Reference" "#PWR56"
-			(at 124.46 165.735 0)
+			(at 124.46 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8367,7 +8421,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 164.465 0)
+			(at 124.46 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8375,7 +8429,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 159.385 0)
+			(at 124.46 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8384,7 +8438,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 159.385 0)
+			(at 124.46 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8393,7 +8447,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 159.385 0)
+			(at 124.46 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12163,6 +12217,73 @@
 			(project "12v-actuators-pcb"
 				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/a9998e65-7bac-4337-98c8-7de7c845405f"
 					(reference "#PWR15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 131.445 162.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f13dabed-26dc-46bc-b14e-1d2e1da01c6c")
+		(property "Reference" "R63"
+			(at 132.08 164.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 130.81 167.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+			(at 131.445 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 131.445 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 131.445 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e49ea46-ee2d-4665-b151-3f1ccd87cb02")
+		)
+		(pin "2"
+			(uuid "c3dd3168-244f-4cd2-974d-7c986354b4e8")
+		)
+		(instances
+			(project "12v-actuators-pcb"
+				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/a9998e65-7bac-4337-98c8-7de7c845405f"
+					(reference "R63")
 					(unit 1)
 				)
 			)
