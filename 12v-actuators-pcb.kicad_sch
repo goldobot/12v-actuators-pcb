@@ -9758,6 +9758,44 @@
 		)
 	)
 	(sheet
+		(at 120.015 36.83)
+		(size 30.48 19.685)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2e8f8d2d-d9a9-4b94-b9b0-d760b476fa18")
+		(property "Sheetname" "Mini-PAMI"
+			(at 120.015 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Carte_MiniPAMI 2025.kicad_sch"
+			(at 120.015 57.0996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "12v-actuators-pcb"
+				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 97.79 80.01)
 		(size 31.75 44.45)
 		(fields_autoplaced yes)

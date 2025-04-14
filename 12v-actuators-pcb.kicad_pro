@@ -619,6 +619,7 @@
       "/5V_USB": "rgb(132, 0, 0)",
       "/PWR_12V": "rgb(207, 90, 255)",
       "/VBATT_12V": "rgb(132, 0, 132)",
+      "3L": "rgb(194, 194, 0)",
       "GND": "rgb(88, 90, 255)",
       "GNDPWR": "rgb(123, 185, 255)"
     },
@@ -697,7 +698,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 90,
     "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -913,6 +914,10 @@
     [
       "f78de832-b1c2-4647-81ab-fdc60f9d045f",
       "MCU et capteurs"
+    ],
+    [
+      "2e8f8d2d-d9a9-4b94-b9b0-d760b476fa18",
+      "Mini-PAMI"
     ]
   ],
   "text_variables": {}
