@@ -3510,7 +3510,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.965 60.325) (xy 227.965 65.405)
+			(xy 227.965 60.325) (xy 227.965 61.595)
 		)
 		(stroke
 			(width 0)
@@ -3954,7 +3954,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.965 70.485) (xy 227.965 74.295)
+			(xy 227.965 66.675) (xy 227.965 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4375,6 +4375,16 @@
 			(type default)
 		)
 		(uuid "fdd69a6f-f3c8-4580-abf1-67172ce6bcf6")
+	)
+	(wire
+		(pts
+			(xy 227.965 72.39) (xy 227.965 74.295)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe1f06d0-15a2-41e1-a839-d8d42e4df37b")
 	)
 	(wire
 		(pts
@@ -10720,7 +10730,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 227.965 67.945 180)
+		(at 227.965 64.135 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10729,7 +10739,7 @@
 		(fields_autoplaced yes)
 		(uuid "89e2463b-a26f-4c3a-9aee-fe8dcee0fb82")
 		(property "Reference" "R?"
-			(at 230.505 67.31 0)
+			(at 230.505 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10737,8 +10747,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "523k"
-			(at 230.505 69.85 0)
+		(property "Value" "510k"
+			(at 230.505 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10747,7 +10757,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 227.965 67.945 0)
+			(at 227.965 64.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10756,7 +10766,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 227.965 67.945 0)
+			(at 227.965 64.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10765,7 +10775,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.965 67.945 0)
+			(at 227.965 64.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10773,8 +10783,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C185324"
-			(at 227.965 67.945 0)
+		(property "LCSC" "C23192"
+			(at 227.965 64.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11269,6 +11279,85 @@
 			(project "12v-actuators-pcb"
 				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/a9998e65-7bac-4337-98c8-7de7c845405f"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 227.965 69.85 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4fd070a-923d-4626-93ca-83a37ede3167")
+		(property "Reference" "R64"
+			(at 229.87 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "13k"
+			(at 229.87 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 227.965 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.965 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.965 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22797"
+			(at 227.965 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3f1b97c-054f-4e63-87ec-1fd91d6fd19c")
+		)
+		(pin "2"
+			(uuid "26282387-8989-45d0-beac-df94aec75369")
+		)
+		(instances
+			(project "12v-actuators-pcb"
+				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715/a9998e65-7bac-4337-98c8-7de7c845405f"
+					(reference "R64")
 					(unit 1)
 				)
 			)

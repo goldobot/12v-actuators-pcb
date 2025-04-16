@@ -10676,7 +10676,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 81.28 142.24 90)
 			(effects
 				(font
@@ -10773,7 +10773,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 191.77 25.4 90)
 			(effects
 				(font
@@ -11576,7 +11576,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 128.27 113.03 90)
 			(effects
 				(font
@@ -13175,7 +13175,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 82.55 80.01 90)
 			(effects
 				(font
@@ -13362,7 +13362,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 82.55 52.07 90)
 			(effects
 				(font
@@ -14105,7 +14105,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 34.925 50.165 90)
 			(effects
 				(font
@@ -14368,7 +14368,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 34.29 168.275 90)
 			(effects
 				(font
@@ -16971,7 +16971,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 34.29 139.065 90)
 			(effects
 				(font
@@ -17871,7 +17871,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 128.27 82.55 90)
 			(effects
 				(font
@@ -17968,7 +17968,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 128.27 52.07 90)
 			(effects
 				(font
@@ -18791,7 +18791,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 35.56 80.01 90)
 			(effects
 				(font
@@ -19187,7 +19187,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 81.28 110.49 90)
 			(effects
 				(font
@@ -20309,7 +20309,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 34.29 109.22 90)
 			(effects
 				(font

@@ -2734,6 +2734,12 @@
 		(uuid "0c32b407-1e44-426f-948a-b824aa97fff0")
 	)
 	(junction
+		(at 94.615 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b7949b8-c6cb-4042-baf0-16eceefcec64")
+	)
+	(junction
 		(at 69.85 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2913,6 +2919,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 145.415) (xy 179.07 145.415)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14d80969-6619-4c36-9bbc-559c1da60c95")
+	)
+	(wire
+		(pts
 			(xy 129.54 86.36) (xy 148.59 86.36)
 		)
 		(stroke
@@ -2984,7 +3000,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 147.32) (xy 127 147.32)
+			(xy 205.74 153.67) (xy 196.85 153.67)
 		)
 		(stroke
 			(width 0.5)
@@ -3012,6 +3028,16 @@
 			(type default)
 		)
 		(uuid "2a8ba4f0-7e02-497a-be4d-3ee7ab782cff")
+	)
+	(wire
+		(pts
+			(xy 97.79 139.065) (xy 94.615 139.065)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a9ad5b3-cfd8-44fd-a732-06cdf206604f")
 	)
 	(wire
 		(pts
@@ -3076,7 +3102,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 142.24) (xy 127 142.24)
+			(xy 205.74 148.59) (xy 196.85 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3237,7 +3263,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 87.63) (xy 97.79 87.63)
+			(xy 46.99 87.63) (xy 94.615 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3258,7 +3284,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 144.78) (xy 148.59 144.78)
+			(xy 205.74 151.13) (xy 187.96 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3409,6 +3435,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 138.43) (xy 148.59 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a99c3517-5ef3-4b78-9032-efb6d5b9b24c")
+	)
+	(wire
+		(pts
 			(xy 129.54 106.68) (xy 148.59 106.68)
 		)
 		(stroke
@@ -3440,6 +3476,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 142.24) (xy 148.59 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb52dc9d-4fcb-43c5-8679-cc8de099f107")
+	)
+	(wire
+		(pts
 			(xy 129.54 109.22) (xy 148.59 109.22)
 		)
 		(stroke
@@ -3467,6 +3513,36 @@
 			(type default)
 		)
 		(uuid "c45b1882-e37c-4498-a8d2-b8843a6188fc")
+	)
+	(wire
+		(pts
+			(xy 94.615 87.63) (xy 97.79 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb0fcfc9-54fd-4ef3-adfb-4cb8eb6d86ef")
+	)
+	(wire
+		(pts
+			(xy 94.615 139.065) (xy 94.615 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3d09a78-dc33-45e9-86b5-bc93c3a1d3fc")
+	)
+	(wire
+		(pts
+			(xy 129.54 140.335) (xy 148.59 140.335)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4eca680-1403-4e51-a150-3b3b6e322412")
 	)
 	(wire
 		(pts
@@ -3581,6 +3657,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 151.13) (xy 187.96 145.415)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbe3a1fb-d2fe-4653-9b1e-c6f6cafa335c")
+	)
+	(wire
+		(pts
 			(xy 129.54 81.28) (xy 148.59 81.28)
 		)
 		(stroke
@@ -3602,8 +3688,8 @@
 		(uuid 1dc314cf-491f-4855-84a5-86dfdaf700d1)
 	)
 	(rectangle
-		(start 99.06 133.35)
-		(end 140.97 154.94)
+		(start 224.79 139.7)
+		(end 182.88 161.29)
 		(stroke
 			(width 0)
 			(type dash)
@@ -7015,12 +7101,12 @@
 	)
 	(text "Sortie: LEDs adressables"
 		(exclude_from_sim no)
-		(at 100.33 135.89 0)
+		(at 207.645 142.875 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "13064272-8e2d-43b7-adb8-9ad9fe9d8e30")
 	)
@@ -7072,12 +7158,12 @@
 	)
 	(text "3A max"
 		(exclude_from_sim no)
-		(at 118.11 140.97 0)
+		(at 205.74 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "6b3da5b5-e624-43bb-98dc-dc599a9de699")
 	)
@@ -7121,6 +7207,17 @@
 			(justify right bottom)
 		)
 		(uuid "d1e0ad90-442a-4b15-97ec-b4313cd171fd")
+	)
+	(text "connexion bidon\n(pour faire passer\nla panelisation)"
+		(exclude_from_sim no)
+		(at 116.205 147.955 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f23a3b07-b341-4b37-8386-c38f2246bc3d")
 	)
 	(label "EV_7"
 		(at 135.89 99.06 0)
@@ -7252,7 +7349,7 @@
 		)
 		(uuid "7da1a3da-4453-4d0b-b256-3b3e1ea5e4a8")
 	)
-	(label "USB_DN"
+	(label "USB_N"
 		(at 193.04 74.93 180)
 		(effects
 			(font
@@ -7372,7 +7469,7 @@
 		)
 		(uuid "c955cd79-af31-4363-bc76-4171a215b22f")
 	)
-	(label "USB_DP"
+	(label "USB_P"
 		(at 185.42 72.39 0)
 		(effects
 			(font
@@ -7433,12 +7530,12 @@
 		(uuid "e2bdea79-5b52-4b66-916e-f2b6850d572f")
 	)
 	(label "DATA_LED"
-		(at 127 144.78 180)
+		(at 196.85 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "e57be902-8bdb-44a5-9a68-a01f2c9f5a05")
 	)
@@ -8026,7 +8123,8 @@
 	)
 	(symbol
 		(lib_id "power:+5VP")
-		(at 127 142.24 0)
+		(at 196.85 148.59 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8035,7 +8133,7 @@
 		(fields_autoplaced yes)
 		(uuid "43cc6f1b-7d99-41d0-8814-adeaea6f1a75")
 		(property "Reference" "#PWR22"
-			(at 127 146.05 0)
+			(at 196.85 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8044,7 +8142,7 @@
 			)
 		)
 		(property "Value" "+5VP"
-			(at 127 138.43 0)
+			(at 196.85 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8052,7 +8150,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 142.24 0)
+			(at 196.85 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8061,7 +8159,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 142.24 0)
+			(at 196.85 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8070,7 +8168,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 142.24 0)
+			(at 196.85 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8137,6 +8235,15 @@
 		)
 		(property "Description" "USB Mini Type B connector"
 			(at 203.2 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C720611"
+			(at 203.2 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8834,7 +8941,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 113.03 144.78 0)
+		(at 210.82 151.13 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8842,7 +8950,7 @@
 		(dnp no)
 		(uuid "84cf4070-e775-4243-8e89-c090686fef66")
 		(property "Reference" "J7"
-			(at 109.22 146.05 0)
+			(at 214.63 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8850,7 +8958,7 @@
 			)
 		)
 		(property "Value" "RGBA_LEDs"
-			(at 105.41 143.51 0)
+			(at 218.44 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8858,7 +8966,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 113.03 144.78 0)
+			(at 210.82 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8867,7 +8975,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 144.78 0)
+			(at 210.82 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8876,7 +8984,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 113.03 144.78 0)
+			(at 210.82 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9025,6 +9133,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7376"
+			(at 210.2359 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f49ba62a-4c6c-4dd0-acf4-4e991cd0e869")
 		)
@@ -9126,7 +9243,8 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 127 147.32 0)
+		(at 196.85 153.67 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9134,7 +9252,7 @@
 		(dnp no)
 		(uuid "c1cfc3f7-385c-42d6-8e22-06e0ac236264")
 		(property "Reference" "#PWR24"
-			(at 127 152.4 0)
+			(at 196.85 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9143,7 +9261,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 127 151.13 0)
+			(at 196.85 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9151,7 +9269,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 148.59 0)
+			(at 196.85 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9160,7 +9278,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 148.59 0)
+			(at 196.85 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9169,7 +9287,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 147.32 0)
+			(at 196.85 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9433,6 +9551,15 @@
 		)
 		(property "Description" ""
 			(at 236.22 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1588"
+			(at 240.03 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9706,6 +9833,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C440198"
+			(at 198.12 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "87da4415-59db-47eb-887a-21b0c857a9d5")
 		)
@@ -9717,6 +9853,84 @@
 				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
 					(reference "C1")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 97.79 132.08)
+		(size 31.75 17.145)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2e8f8d2d-d9a9-4b94-b9b0-d760b476fa18")
+		(property "Sheetname" "Mini-PAMI"
+			(at 97.79 131.3684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Carte_MiniPAMI 2025.kicad_sch"
+			(at 97.79 149.8096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_DBG_1" input
+			(at 129.54 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0bda09d0-4aa2-4102-8ebc-b9f9fd12ceb9")
+		)
+		(pin "LED_DBG_3" input
+			(at 129.54 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c5718dd9-b177-41d6-aae9-1d15678eabf6")
+		)
+		(pin "LED_DBG_2" input
+			(at 129.54 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8b033bcb-7dff-461b-8d8e-2735816af27f")
+		)
+		(pin "PWR_12V" input
+			(at 97.79 139.065 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "47464d9b-1772-4301-b741-3fa98af98e79")
+		)
+		(instances
+			(project "12v-actuators-pcb"
+				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
+					(page "5")
 				)
 			)
 		)
@@ -10236,7 +10450,7 @@
 			)
 			(uuid "09e3b2c7-86c3-49ac-ab8d-d3537a7481a7")
 		)
-		(pin "USB_DP" bidirectional
+		(pin "USB_P" bidirectional
 			(at 179.07 72.39 0)
 			(effects
 				(font
@@ -10257,16 +10471,16 @@
 			(uuid "f7401c32-aef4-49aa-ae7b-7bb6383d2c3b")
 		)
 		(pin "DATA_LED" output
-			(at 148.59 144.78 180)
+			(at 179.07 145.415 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "b4a9e869-a79f-4879-9e0a-af978d376ae9")
 		)
-		(pin "USB_DN" bidirectional
+		(pin "USB_N" bidirectional
 			(at 179.07 74.93 0)
 			(effects
 				(font
@@ -10305,6 +10519,36 @@
 				(justify left)
 			)
 			(uuid "9c2adc7a-6a49-4111-91e7-6674de175f3b")
+		)
+		(pin "LED_DBG_2" output
+			(at 148.59 140.335 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4418bb8a-ed60-43cc-af65-fd5c5b05a6ea")
+		)
+		(pin "LED_DBG_3" output
+			(at 148.59 142.24 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c9f46930-45d5-4614-86c7-1668ad7ddd20")
+		)
+		(pin "LED_DBG_1" output
+			(at 148.59 138.43 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5fcee0cc-cd67-4aed-b0b5-392284ba68ea")
 		)
 		(instances
 			(project "12v-actuators-pcb"

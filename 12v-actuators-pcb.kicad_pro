@@ -59,25 +59,31 @@
         }
       ],
       "drc_exclusions": [
+        "courtyards_overlap|100095000|100255000|291e5b50-8c7b-47f3-88a5-4cd0a3774875|cdcd81a4-c1f6-428f-9781-f0ef2f2c7f1d",
+        "courtyards_overlap|100095000|123255000|37dd8995-f94d-410c-b2e1-0b906a456328|da05340d-1763-4765-a945-037a0ac232e4",
+        "courtyards_overlap|100716153|62855000|2e7478c1-cfb2-4568-8c61-829e66e4307c|38992626-5dda-4fa0-a2cc-3b9dd60f9c9c",
+        "courtyards_overlap|101770515|54555000|16f49959-2784-4f9f-8d53-daedab9e0b45|f9494766-e975-4f32-9667-cc22b0a97aac",
+        "courtyards_overlap|102745000|62855000|2e7478c1-cfb2-4568-8c61-829e66e4307c|b375dc09-7a51-4894-a85e-f9dd6b912669",
+        "courtyards_overlap|104855000|102264253|0fd8a5d5-013e-4b7a-a2f8-d4704fc2702d|abe9bb39-101c-445e-a1bb-d6d90d58e0b9",
+        "courtyards_overlap|104855000|125264253|bab94cd5-f132-4b89-bf46-48c57afc172d|ef0fe7c4-b27a-433f-8694-8005ad2fe46e",
+        "courtyards_overlap|106755000|62855000|5b405aba-014a-4ee3-9f04-273b2e1a19a1|b375dc09-7a51-4894-a85e-f9dd6b912669",
+        "courtyards_overlap|108445000|100255000|6b2cd19e-b8dc-47b7-a406-41d4572d1223|abe9bb39-101c-445e-a1bb-d6d90d58e0b9",
+        "courtyards_overlap|108445000|118175000|4b9a967b-f858-4588-9c36-b6073b300d18|826b707d-8558-414c-a799-95e0b74af1fd",
+        "courtyards_overlap|108445000|123255000|826b707d-8558-414c-a799-95e0b74af1fd|ef0fe7c4-b27a-433f-8694-8005ad2fe46e",
+        "courtyards_overlap|108445000|95175000|6b2cd19e-b8dc-47b7-a406-41d4572d1223|a68ac2ae-7b82-4fe5-8e38-ca3b99c5b182",
         "courtyards_overlap|145545000|97619800|df601fe4-f9df-4b1e-8653-a1a8e7a7f3a7|f480b87d-cd9d-46cb-896d-a3fc86826e63",
         "courtyards_overlap|158222200|92804800|304b6f35-4166-46bb-826d-d72875e1c5b6|37c0f797-a084-4d58-83c0-5784a9f7df91",
-        "courtyards_overlap|28145000|83728480|38992626-5dda-4fa0-a2cc-3b9dd60f9c9c|2e7478c1-cfb2-4568-8c61-829e66e4307c",
-        "courtyards_overlap|28145000|84685000|2e7478c1-cfb2-4568-8c61-829e66e4307c|b375dc09-7a51-4894-a85e-f9dd6b912669",
-        "courtyards_overlap|28145000|89755000|5b405aba-014a-4ee3-9f04-273b2e1a19a1|b375dc09-7a51-4894-a85e-f9dd6b912669",
-        "courtyards_overlap|33399564|79605000|38992626-5dda-4fa0-a2cc-3b9dd60f9c9c|f9494766-e975-4f32-9667-cc22b0a97aac",
-        "courtyards_overlap|36445000|84685000|16f49959-2784-4f9f-8d53-daedab9e0b45|f9494766-e975-4f32-9667-cc22b0a97aac",
-        "courtyards_overlap|52145000|83728480|ef0fe7c4-b27a-433f-8694-8005ad2fe46e|bab94cd5-f132-4b89-bf46-48c57afc172d",
-        "courtyards_overlap|52145000|84685000|ef0fe7c4-b27a-433f-8694-8005ad2fe46e|826b707d-8558-414c-a799-95e0b74af1fd",
-        "courtyards_overlap|52145000|89755000|826b707d-8558-414c-a799-95e0b74af1fd|4b9a967b-f858-4588-9c36-b6073b300d18",
-        "courtyards_overlap|57399564|79605000|37dd8995-f94d-410c-b2e1-0b906a456328|bab94cd5-f132-4b89-bf46-48c57afc172d",
-        "courtyards_overlap|60445000|84685000|37dd8995-f94d-410c-b2e1-0b906a456328|da05340d-1763-4765-a945-037a0ac232e4",
-        "courtyards_overlap|72145000|83728480|abe9bb39-101c-445e-a1bb-d6d90d58e0b9|0fd8a5d5-013e-4b7a-a2f8-d4704fc2702d",
-        "courtyards_overlap|72145000|84685000|abe9bb39-101c-445e-a1bb-d6d90d58e0b9|6b2cd19e-b8dc-47b7-a406-41d4572d1223",
-        "courtyards_overlap|72145000|89755000|6b2cd19e-b8dc-47b7-a406-41d4572d1223|a68ac2ae-7b82-4fe5-8e38-ca3b99c5b182",
-        "courtyards_overlap|77399564|79605000|cdcd81a4-c1f6-428f-9781-f0ef2f2c7f1d|0fd8a5d5-013e-4b7a-a2f8-d4704fc2702d",
-        "courtyards_overlap|80445000|84685000|cdcd81a4-c1f6-428f-9781-f0ef2f2c7f1d|291e5b50-8c7b-47f3-88a5-4cd0a3774875",
+        "courtyards_overlap|97832662|57222427|38992626-5dda-4fa0-a2cc-3b9dd60f9c9c|f9494766-e975-4f32-9667-cc22b0a97aac",
+        "courtyards_overlap|99217982|127809515|37dd8995-f94d-410c-b2e1-0b906a456328|bab94cd5-f132-4b89-bf46-48c57afc172d",
+        "courtyards_overlap|99622721|106395000|0fd8a5d5-013e-4b7a-a2f8-d4704fc2702d|cdcd81a4-c1f6-428f-9781-f0ef2f2c7f1d",
         "items_not_allowed|121737200|118714800|8d1d2aa9-6511-4710-a998-aca82ec49e43|00000000-0000-0000-0000-000000000000",
         "items_not_allowed|122637200|127314800|455ac743-7439-45cd-913e-bb7d8c7b6e50|00000000-0000-0000-0000-000000000000",
+        "shorting_items|104125000|67500000|90cd7ed2-c692-414c-b3a5-a6c25ecaa2c5|0ffe1c28-8022-4229-a911-6f05e0050c21",
+        "shorting_items|105020595|67513544|d4bd49fe-35db-40d5-a48c-c487bc3759ee|05df8f81-7af0-4dcd-a788-e19e655fb79b",
+        "shorting_items|109000000|120075000|dafc3cc0-f30a-42a5-863e-2fac3335dbb7|e8847d6a-d674-4289-b3c3-19a266a5177a",
+        "shorting_items|109000000|97875000|7e1b4467-21c1-4be3-9f7b-43f00271e757|231a18c2-aa20-4e70-86f9-ce8656724c7e",
+        "shorting_items|111000000|102475000|a991a7f9-4803-43b2-a49d-21f4088f2e34|49b01ff8-8174-439b-b449-98ac95e38647",
+        "shorting_items|117725000|92500000|57225f11-d3c3-42c1-9583-ac94af02a814|9aff84b0-78ce-400d-b6f2-6d4aedad4c22",
         "shorting_items|122300000|106675000|cc6e1189-e554-4736-9468-a3f6d92cc453|ea6474a2-e855-4365-8dcb-3aa556f53de0",
         "shorting_items|122300000|107675000|0147096b-f568-4342-bd3e-c235ec5e4ee3|bb7a12f6-4173-4906-a08f-53228d82daa8",
         "shorting_items|123750000|103075000|5552f05f-1e8e-418d-be64-2778db71ef98|ee57251f-6355-448e-af0d-9697b38a8341",
@@ -109,13 +115,27 @@
         "shorting_items|151925000|94625000|b047c06e-8130-4880-9562-f3a423d25fde|67c663eb-ae43-4b85-9645-4dbcb8b088d1",
         "shorting_items|153425000|94625000|40a70365-6be7-4bca-90e0-fdcda76b1bb3|c3d23f3c-5e40-4f22-9ce7-65eebe4d3800",
         "shorting_items|167017200|129199800|3cdf3fe9-58f4-4d19-bd7f-c2560fa88648|3eb52559-bfa9-49d1-8e9b-6d0523a7db65",
+        "starved_thermal|101350000|104800000|57f8959e-d2b0-4277-b70b-820ca98504fd|276ae9ad-36dd-4e06-85c7-9d8611b9d8aa|B.Cu",
+        "starved_thermal|101350000|104800000|57f8959e-d2b0-4277-b70b-820ca98504fd|276ae9ad-36dd-4e06-85c7-9d8611b9d8aa|F.Cu",
+        "starved_thermal|106020000|56300000|daab0c30-d926-4336-afe5-0cea1e6621c3|0c3da9a1-ac70-4ad5-a879-c18fd00ccfc2|F.Cu",
         "starved_thermal|140040000|118049800|8a5c5cd2-ae42-4643-b380-8f741233a54f|492f0375-6a59-489d-b948-214f82dbc392|F.Cu",
         "starved_thermal|144945378|127864800|8a5c5cd2-ae42-4643-b380-8f741233a54f|70273bec-eb7c-4369-9b84-2e7f6267218e|F.Cu",
         "starved_thermal|156237200|99399800|8a5c5cd2-ae42-4643-b380-8f741233a54f|0e809818-18cd-43a8-aee4-9d23b039dd16|F.Cu",
-        "starved_thermal|34700000|89020000|daab0c30-d926-4336-afe5-0cea1e6621c3|0c3da9a1-ac70-4ad5-a879-c18fd00ccfc2|F.Cu",
-        "starved_thermal|58700000|89020000|5176de87-ec2a-4599-ad35-51916ad0dccb|e96470a2-4426-40b6-8e53-ca18c93036b1|F.Cu",
-        "starved_thermal|78700000|89020000|57f8959e-d2b0-4277-b70b-820ca98504fd|2d62d23a-7a9e-4bcd-8290-f888176828f1|F.Cu",
-        "track_dangling|135100000|106378750|750c186f-d631-42b7-88b9-47ff4006e3a1|00000000-0000-0000-0000-000000000000"
+        "starved_thermal|98300000|119980000|5176de87-ec2a-4599-ad35-51916ad0dccb|e96470a2-4426-40b6-8e53-ca18c93036b1|F.Cu",
+        "starved_thermal|98300000|96980000|57f8959e-d2b0-4277-b70b-820ca98504fd|2d62d23a-7a9e-4bcd-8290-f888176828f1|F.Cu",
+        "track_dangling|135100000|106378750|750c186f-d631-42b7-88b9-47ff4006e3a1|00000000-0000-0000-0000-000000000000",
+        "unconnected_items|100700000|98187500|dd6f7c9f-7295-4a9d-a3db-015bca88b057|2e4a9b23-ebbf-4885-8b73-2a0de4e73ac0",
+        "unconnected_items|101968031|85000000|57f8959e-d2b0-4277-b70b-820ca98504fd|90cd7ed2-c692-414c-b3a5-a6c25ecaa2c5",
+        "unconnected_items|103175000|101000000|667a61ba-bbf1-4328-ba2d-4a66f6cca651|bb726309-b453-4470-8332-f6e6a2fc968a",
+        "unconnected_items|105095595|67388544|05df8f81-7af0-4dcd-a788-e19e655fb79b|5fd7d05d-8d24-4eba-883c-77eb7b68c0a5",
+        "unconnected_items|106414000|86480000|8e057e2e-a6c6-4eab-a25b-77a0a305db62|e592b5b1-6dd7-4370-a633-1f221ce8f007",
+        "unconnected_items|106650000|91900000|b549c884-dafc-4f68-9f9b-12501ea1ec2d|a0db49e6-c22a-40b4-abf6-9f58d24e5409",
+        "unconnected_items|106700000|117440000|c2372e57-2f38-4103-8e76-a97704cc952c|11c57c6c-258c-463f-9f59-399c3163c444",
+        "unconnected_items|108875000|97800000|7e1b4467-21c1-4be3-9f7b-43f00271e757|57225f11-d3c3-42c1-9583-ac94af02a814",
+        "unconnected_items|111075000|56250000|f374a016-5c96-4453-a964-311606812377|0d423cb7-3a7e-421a-8e55-3c6b56a58246",
+        "unconnected_items|98250000|91925000|93ec21c5-4da7-46b2-8298-14b63b460293|bd9981e2-a5e3-4ee8-b49f-e1710b94fa65",
+        "unconnected_items|99800000|114137500|474352b0-9c79-4968-9e5f-acf994ea0433|b86ab921-21f5-4112-a4a8-aeee870904d0",
+        "unconnected_items|99800000|91137500|7ff8f1d2-87ce-47e9-aeda-1321e685b136|dbaa5627-082b-479e-aa5b-a517a264c233"
       ],
       "meta": {
         "version": 2
@@ -869,13 +889,133 @@
           "label": "LCSC",
           "name": "LCSC",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "CONTINUOUSFORWARDCURRENT",
+          "name": "CONTINUOUSFORWARDCURRENT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ALTIUM_VALUE",
+          "name": "ALTIUM_VALUE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CERAMICTYPE",
+          "name": "CERAMICTYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENTLINK1DESCRIPTION",
+          "name": "COMPONENTLINK1DESCRIPTION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "POWER",
+          "name": "POWER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PRECISION",
+          "name": "PRECISION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RATEDVOLTAGE",
+          "name": "RATEDVOLTAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SIZE",
+          "name": "SIZE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER 1",
+          "name": "SUPPLIER 1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER 2",
+          "name": "SUPPLIER 2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER 3",
+          "name": "SUPPLIER 3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER FOOTPRINT 2",
+          "name": "SUPPLIER FOOTPRINT 2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER PART NUMBER 1",
+          "name": "SUPPLIER PART NUMBER 1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER PART NUMBER 2",
+          "name": "SUPPLIER PART NUMBER 2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENTLINK1URL",
+          "name": "COMPONENTLINK1URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENTLINK2URL",
+          "name": "COMPONENTLINK2URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER PART NUMBER",
+          "name": "MANUFACTURER PART NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VMAX",
+          "name": "VMAX",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENTLINK2DESCRIPTION",
+          "name": "COMPONENTLINK2DESCRIPTION",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "LCSC"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
