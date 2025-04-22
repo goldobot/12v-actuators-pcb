@@ -21803,7 +21803,7 @@
 		(path "/a9998e65-7bac-4337-98c8-7de7c845405f/5c7021e5-b144-4aa8-bc45-fbce44961266")
 		(sheetname "Alim et Arrêt d'urgence")
 		(sheetfile "alim_au.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -92719,7 +92719,7 @@
 		(path "/2e8f8d2d-d9a9-4b94-b9b0-d760b476fa18/17eff252-2549-45ce-bc16-668b1e493fce")
 		(sheetname "Mini-PAMI")
 		(sheetfile "Carte_MiniPAMI 2025.kicad_sch")
-		(attr smd exclude_from_pos_files)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.9 1.6)
 			(end -1 1.6)
@@ -96301,7 +96301,7 @@
 		(path "/2e8f8d2d-d9a9-4b94-b9b0-d760b476fa18/d359bef2-a0a4-4321-979c-78cc746a463f")
 		(sheetname "Mini-PAMI")
 		(sheetfile "Carte_MiniPAMI 2025.kicad_sch")
-		(attr smd exclude_from_pos_files)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.9 -1.6)
 			(end -1 -1.6)
@@ -97142,7 +97142,7 @@
 		(path "/2e8f8d2d-d9a9-4b94-b9b0-d760b476fa18/74108f88-9a7b-4e92-948a-666eee38a452")
 		(sheetname "Mini-PAMI")
 		(sheetfile "Carte_MiniPAMI 2025.kicad_sch")
-		(attr smd exclude_from_pos_files)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.9 1.6)
 			(end -1 1.6)
