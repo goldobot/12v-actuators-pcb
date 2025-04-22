@@ -6038,7 +6038,7 @@
 	)
 	(wire
 		(pts
-			(xy 23.495 46.355) (xy 33.655 46.355)
+			(xy 23.495 58.42) (xy 33.655 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6078,7 +6078,7 @@
 	)
 	(wire
 		(pts
-			(xy 23.495 38.735) (xy 33.655 38.735)
+			(xy 23.495 50.8) (xy 33.655 50.8)
 		)
 		(stroke
 			(width 0)
@@ -6088,7 +6088,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 106.68) (xy 34.29 106.68)
+			(xy 24.13 118.745) (xy 34.29 118.745)
 		)
 		(stroke
 			(width 0)
@@ -6128,7 +6128,7 @@
 	)
 	(wire
 		(pts
-			(xy 23.495 69.215) (xy 33.655 69.215)
+			(xy 23.495 81.28) (xy 33.655 81.28)
 		)
 		(stroke
 			(width 0)
@@ -6148,7 +6148,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 102.87) (xy 34.29 102.87)
+			(xy 24.13 114.935) (xy 34.29 114.935)
 		)
 		(stroke
 			(width 0)
@@ -6218,7 +6218,7 @@
 	)
 	(wire
 		(pts
-			(xy 23.495 65.405) (xy 33.655 65.405)
+			(xy 23.495 77.47) (xy 33.655 77.47)
 		)
 		(stroke
 			(width 0)
@@ -6348,7 +6348,7 @@
 	)
 	(wire
 		(pts
-			(xy 23.495 84.455) (xy 33.655 84.455)
+			(xy 23.495 96.52) (xy 33.655 96.52)
 		)
 		(stroke
 			(width 0)
@@ -6378,7 +6378,7 @@
 	)
 	(wire
 		(pts
-			(xy 23.495 42.545) (xy 33.655 42.545)
+			(xy 23.495 54.61) (xy 33.655 54.61)
 		)
 		(stroke
 			(width 0)
@@ -6598,7 +6598,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 121.92) (xy 34.29 121.92)
+			(xy 24.13 133.985) (xy 34.29 133.985)
 		)
 		(stroke
 			(width 0)
@@ -6668,7 +6668,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 118.11) (xy 34.29 118.11)
+			(xy 24.13 130.175) (xy 34.29 130.175)
 		)
 		(stroke
 			(width 0)
@@ -6738,7 +6738,7 @@
 	)
 	(wire
 		(pts
-			(xy 23.495 88.265) (xy 33.655 88.265)
+			(xy 23.495 100.33) (xy 33.655 100.33)
 		)
 		(stroke
 			(width 0)
@@ -6758,7 +6758,7 @@
 	)
 	(wire
 		(pts
-			(xy 23.495 61.595) (xy 33.655 61.595)
+			(xy 23.495 73.66) (xy 33.655 73.66)
 		)
 		(stroke
 			(width 0)
@@ -6788,7 +6788,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 125.73) (xy 34.29 125.73)
+			(xy 24.13 137.795) (xy 34.29 137.795)
 		)
 		(stroke
 			(width 0)
@@ -6828,7 +6828,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 99.06) (xy 34.29 99.06)
+			(xy 24.13 111.125) (xy 34.29 111.125)
 		)
 		(stroke
 			(width 0)
@@ -7278,7 +7278,7 @@
 	)
 	(wire
 		(pts
-			(xy 23.495 76.835) (xy 33.655 76.835)
+			(xy 23.495 88.9) (xy 33.655 88.9)
 		)
 		(stroke
 			(width 0)
@@ -7448,7 +7448,7 @@
 	)
 	(wire
 		(pts
-			(xy 23.495 73.025) (xy 33.655 73.025)
+			(xy 23.495 85.09) (xy 33.655 85.09)
 		)
 		(stroke
 			(width 0)
@@ -7578,7 +7578,7 @@
 	)
 	(wire
 		(pts
-			(xy 23.495 57.785) (xy 33.655 57.785)
+			(xy 23.495 69.85) (xy 33.655 69.85)
 		)
 		(stroke
 			(width 0)
@@ -7708,7 +7708,7 @@
 	)
 	(wire
 		(pts
-			(xy 23.495 95.885) (xy 33.655 95.885)
+			(xy 23.495 107.95) (xy 33.655 107.95)
 		)
 		(stroke
 			(width 0)
@@ -7788,7 +7788,7 @@
 	)
 	(wire
 		(pts
-			(xy 23.495 53.975) (xy 33.655 53.975)
+			(xy 23.495 66.04) (xy 33.655 66.04)
 		)
 		(stroke
 			(width 0)
@@ -8028,7 +8028,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 110.49) (xy 34.29 110.49)
+			(xy 24.13 122.555) (xy 34.29 122.555)
 		)
 		(stroke
 			(width 0)
@@ -8098,7 +8098,7 @@
 	)
 	(wire
 		(pts
-			(xy 23.495 80.645) (xy 33.655 80.645)
+			(xy 23.495 92.71) (xy 33.655 92.71)
 		)
 		(stroke
 			(width 0)
@@ -8158,7 +8158,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 114.3) (xy 34.29 114.3)
+			(xy 24.13 126.365) (xy 34.29 126.365)
 		)
 		(stroke
 			(width 0)
@@ -8228,7 +8228,7 @@
 	)
 	(wire
 		(pts
-			(xy 23.495 92.075) (xy 33.655 92.075)
+			(xy 23.495 104.14) (xy 33.655 104.14)
 		)
 		(stroke
 			(width 0)
@@ -8288,7 +8288,7 @@
 	)
 	(wire
 		(pts
-			(xy 23.495 50.165) (xy 33.655 50.165)
+			(xy 23.495 62.23) (xy 33.655 62.23)
 		)
 		(stroke
 			(width 0)
@@ -8465,8 +8465,8 @@
 		(uuid 92c2dcd8-ed61-4913-ae57-a7d7afb73518)
 	)
 	(rectangle
-		(start 17.78 31.75)
-		(end 50.8 127)
+		(start 17.78 43.815)
+		(end 50.8 139.065)
 		(stroke
 			(width 0)
 			(type dash)
@@ -11873,6 +11873,17 @@
 		)
 		(uuid "2dbc0a04-45d3-44ed-85ca-3e35acc5997a")
 	)
+	(text "JLCPCB cristal is 9Pf (alt. Wurth 830108207109)\nC14=C15=2*9Pf-2*2~3pF =12~14pF = 15pF (src:\nhttps://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-your-design/"
+		(exclude_from_sim no)
+		(at 13.335 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e9b6d2c-743e-429a-84c4-83362a5bb28f")
+	)
 	(text "Level shifter pour I²C"
 		(exclude_from_sim no)
 		(at 24.13 143.51 0)
@@ -11920,7 +11931,7 @@
 	)
 	(text "Sheet I/O"
 		(exclude_from_sim no)
-		(at 19.05 34.29 0)
+		(at 19.05 46.355 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12015,7 +12026,7 @@
 		(uuid "0b5dd00d-fb85-4996-81cc-8e4267e0552d")
 	)
 	(label "DATA_LED"
-		(at 24.13 106.68 0)
+		(at 24.13 118.745 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12065,7 +12076,7 @@
 		(uuid "133cc6a5-7168-45f8-854b-eedf7fbf824b")
 	)
 	(label "EV_11"
-		(at 23.495 95.885 0)
+		(at 23.495 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12075,7 +12086,7 @@
 		(uuid "1536e6f7-ed56-478f-949d-b599ff590a47")
 	)
 	(label "AU_STATUS"
-		(at 23.495 46.355 0)
+		(at 23.495 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12085,7 +12096,7 @@
 		(uuid "154bd3fd-10ad-4ba3-904e-09b6159f7bb1")
 	)
 	(label "EV_10"
-		(at 23.495 92.075 0)
+		(at 23.495 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12155,7 +12166,7 @@
 		(uuid "2093e1e3-356d-4d87-8937-1fdd6cd7d4af")
 	)
 	(label "EV_7"
-		(at 23.495 80.645 0)
+		(at 23.495 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12165,7 +12176,7 @@
 		(uuid "2381f557-5526-4b41-b2b9-f95632d9612e")
 	)
 	(label "USB_N"
-		(at 24.13 118.11 0)
+		(at 24.13 130.175 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12225,7 +12236,7 @@
 		(uuid "2a2c6784-a6c0-46ac-b28e-169daff84245")
 	)
 	(label "CAN_TX"
-		(at 23.495 42.545 0)
+		(at 23.495 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12245,7 +12256,7 @@
 		(uuid "2fb3b881-0b01-4de5-90cf-45a1806038a4")
 	)
 	(label "EV_4"
-		(at 23.495 69.215 0)
+		(at 23.495 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12275,7 +12286,7 @@
 		(uuid "372425e3-b4a6-43b4-8391-3ae28af015c2")
 	)
 	(label "USB_P"
-		(at 24.13 121.92 0)
+		(at 24.13 133.985 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12375,7 +12386,7 @@
 		(uuid "4b4c572c-569e-4092-a184-fb77bf82339d")
 	)
 	(label "DS_TURB"
-		(at 24.13 110.49 0)
+		(at 24.13 122.555 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12405,7 +12416,7 @@
 		(uuid "503dfc05-ba57-419e-8dfe-6345bc65e083")
 	)
 	(label "LED_EN"
-		(at 23.495 50.165 0)
+		(at 23.495 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12415,7 +12426,7 @@
 		(uuid "522bd114-84dc-4867-bb39-5c0b1fe15168")
 	)
 	(label "EV_8"
-		(at 23.495 84.455 0)
+		(at 23.495 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12605,7 +12616,7 @@
 		(uuid "8024e745-1498-4c1b-a68c-1235eae3f4f5")
 	)
 	(label "DS_COMP"
-		(at 24.13 114.3 0)
+		(at 24.13 126.365 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12685,7 +12696,7 @@
 		(uuid "9c728df9-8aec-4cf1-b76a-aef60a7892d7")
 	)
 	(label "VAC"
-		(at 24.13 102.87 0)
+		(at 24.13 114.935 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12745,7 +12756,7 @@
 		(uuid "b0cd6672-cf00-4a76-8546-c30bc4282a22")
 	)
 	(label "RST_EXT"
-		(at 24.13 125.73 0)
+		(at 24.13 137.795 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12785,7 +12796,7 @@
 		(uuid "bddce4c7-4a86-495a-bf92-a2097bc37923")
 	)
 	(label "CAN_RX"
-		(at 23.495 38.735 0)
+		(at 23.495 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12885,7 +12896,7 @@
 		(uuid "d292c493-432d-407e-a85d-7c6245f666de")
 	)
 	(label "EV_3"
-		(at 23.495 65.405 0)
+		(at 23.495 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12915,7 +12926,7 @@
 		(uuid "d6f6089d-73fb-470f-92e4-d7c33f668cd1")
 	)
 	(label "EV_P"
-		(at 23.495 53.975 0)
+		(at 23.495 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12935,7 +12946,7 @@
 		(uuid "db0907bd-a560-498f-838b-50a4585c78b6")
 	)
 	(label "EV_9"
-		(at 23.495 88.265 0)
+		(at 23.495 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12955,7 +12966,7 @@
 		(uuid "dff8add3-7291-4559-879f-bf838fec3b56")
 	)
 	(label "EV_12"
-		(at 24.13 99.06 0)
+		(at 24.13 111.125 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12965,7 +12976,7 @@
 		(uuid "e247474e-ee8f-4f3b-82cc-3e2d3cdcc7ed")
 	)
 	(label "EV_5"
-		(at 23.495 73.025 0)
+		(at 23.495 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12985,7 +12996,7 @@
 		(uuid "e8d16652-ce63-4e51-9ff6-c1329ab3ad6d")
 	)
 	(label "EV_2"
-		(at 23.495 61.595 0)
+		(at 23.495 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13045,7 +13056,7 @@
 		(uuid "f42b2d6a-3fcf-42af-bd46-366bdc688aa2")
 	)
 	(label "EV_6"
-		(at 23.495 76.835 0)
+		(at 23.495 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13085,7 +13096,7 @@
 		(uuid "fae991c8-7b6a-4b2f-8858-9981b156e4ea")
 	)
 	(label "EV_1"
-		(at 23.495 57.785 0)
+		(at 23.495 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13136,7 +13147,7 @@
 	)
 	(hierarchical_label "EV_1"
 		(shape output)
-		(at 33.655 57.785 0)
+		(at 33.655 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13147,7 +13158,7 @@
 	)
 	(hierarchical_label "EV_2"
 		(shape output)
-		(at 33.655 61.595 0)
+		(at 33.655 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13158,7 +13169,7 @@
 	)
 	(hierarchical_label "DS_COMP"
 		(shape output)
-		(at 34.29 114.3 0)
+		(at 34.29 126.365 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13169,7 +13180,7 @@
 	)
 	(hierarchical_label "EV_7"
 		(shape output)
-		(at 33.655 80.645 0)
+		(at 33.655 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13180,7 +13191,7 @@
 	)
 	(hierarchical_label "VAC"
 		(shape output)
-		(at 34.29 102.87 0)
+		(at 34.29 114.935 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13191,7 +13202,7 @@
 	)
 	(hierarchical_label "EV_9"
 		(shape output)
-		(at 33.655 88.265 0)
+		(at 33.655 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13202,7 +13213,7 @@
 	)
 	(hierarchical_label "RST_EXT"
 		(shape input)
-		(at 34.29 125.73 0)
+		(at 34.29 137.795 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13213,7 +13224,7 @@
 	)
 	(hierarchical_label "EV_4"
 		(shape output)
-		(at 33.655 69.215 0)
+		(at 33.655 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13224,7 +13235,7 @@
 	)
 	(hierarchical_label "EV_6"
 		(shape output)
-		(at 33.655 76.835 0)
+		(at 33.655 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13246,7 +13257,7 @@
 	)
 	(hierarchical_label "USB_P"
 		(shape bidirectional)
-		(at 34.29 121.92 0)
+		(at 34.29 133.985 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13257,7 +13268,7 @@
 	)
 	(hierarchical_label "CAN_TX"
 		(shape output)
-		(at 33.655 42.545 0)
+		(at 33.655 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13268,7 +13279,7 @@
 	)
 	(hierarchical_label "EV_3"
 		(shape output)
-		(at 33.655 65.405 0)
+		(at 33.655 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13279,7 +13290,7 @@
 	)
 	(hierarchical_label "EV_11"
 		(shape output)
-		(at 33.655 95.885 0)
+		(at 33.655 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13290,7 +13301,7 @@
 	)
 	(hierarchical_label "CAN_RX"
 		(shape input)
-		(at 33.655 38.735 0)
+		(at 33.655 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13312,7 +13323,7 @@
 	)
 	(hierarchical_label "EV_P"
 		(shape output)
-		(at 33.655 53.975 0)
+		(at 33.655 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13334,7 +13345,7 @@
 	)
 	(hierarchical_label "EV_5"
 		(shape output)
-		(at 33.655 73.025 0)
+		(at 33.655 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13345,7 +13356,7 @@
 	)
 	(hierarchical_label "AU_STATUS"
 		(shape output)
-		(at 33.655 46.355 0)
+		(at 33.655 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13356,7 +13367,7 @@
 	)
 	(hierarchical_label "EV_8"
 		(shape output)
-		(at 33.655 84.455 0)
+		(at 33.655 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13367,7 +13378,7 @@
 	)
 	(hierarchical_label "DATA_LED"
 		(shape output)
-		(at 34.29 106.68 0)
+		(at 34.29 118.745 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13378,7 +13389,7 @@
 	)
 	(hierarchical_label "EV_10"
 		(shape output)
-		(at 33.655 92.075 0)
+		(at 33.655 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13389,7 +13400,7 @@
 	)
 	(hierarchical_label "LED_EN"
 		(shape output)
-		(at 33.655 50.165 0)
+		(at 33.655 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13400,7 +13411,7 @@
 	)
 	(hierarchical_label "USB_N"
 		(shape bidirectional)
-		(at 34.29 118.11 0)
+		(at 34.29 130.175 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13411,7 +13422,7 @@
 	)
 	(hierarchical_label "EV_12"
 		(shape output)
-		(at 34.29 99.06 0)
+		(at 34.29 111.125 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13422,7 +13433,7 @@
 	)
 	(hierarchical_label "DS_TURB"
 		(shape output)
-		(at 34.29 110.49 0)
+		(at 34.29 122.555 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15058,9 +15069,9 @@
 		(at 69.215 59.69 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "3a8e0e16-2a7c-4d22-acd2-d4e965bc0164")
 		(property "Reference" "Y1"
 			(at 79.375 57.15 90)
@@ -15098,6 +15109,15 @@
 		)
 		(property "Description" ""
 			(at 69.215 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C13738"
+			(at 79.375 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16776,9 +16796,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "753d1be2-44af-44b4-aa22-a40992707b23")
 		(property "Reference" "C15"
 			(at 64.135 67.31 90)
@@ -16789,7 +16809,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "18pF"
+		(property "Value" "15pF"
 			(at 65.405 69.85 90)
 			(effects
 				(font
@@ -19300,9 +19320,9 @@
 		(at 61.595 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "c75c5077-5923-4d55-accf-ad39aa4920b2")
 		(property "Reference" "C14"
 			(at 62.865 49.53 90)
@@ -19313,7 +19333,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "18pF"
+		(property "Value" "15pF"
 			(at 64.135 52.07 90)
 			(effects
 				(font
