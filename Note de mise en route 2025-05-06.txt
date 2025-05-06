@@ -1,0 +1,38 @@
+Debut/mise en route carte pneuma 2025 (v1)
+
+fait par mehdi:
+soudé un fil sur SW_AU (pour mettre du 3,3V)
+soudé un fil sur la sortie du LDO 3,3V pour bridger avec SW_AU
+soudé fil pour alim 12V (VBATT) depuis un dongle USB C
+connecté STlink et USB (= alim 5V)
+test de code chenillard led
+uC qui chauffe, arret des tests.
+reflashé uC (code sans action)
+
+2025-05-06 au lab:
+alim en 3,3V 200mA max => alim en sécu
+mesure ohmetre sur rail 3,3V sans alim => 312 Ohm => 11mA
+si bouton RST appuyé: 303 Ohm
+mesure des pins, tous sup à 10k, sauf JP14 (LED_EN) a 87 ohm (sur l'autre carte, même mesure à 10k)
+#coupure de JP14 et mesure: 10k coté DC/DC, 87 ohm coté uC
+vérif du pinout DS<->routage: RàS
+pas de protection ESB sur l'USB, éventuellement à ajouter
+#coupure sortie LDO vers uC => les 300 Ohm sont coté LDO
+alim direct du uC: chauffe pareil
+
+alim via USB C (12V) uniquement => LED_EN à 12V => suffisament pour cramé le uC
+mesure au multi => CC entre pin 1 (EN) et 2 (VIN)
+#on va faire un reflow de U6 pour tenter d'enlever le CC
+sur l'autre carte, pas de CC entre ces pin mais par sécurité:
+#JP14 coupé sur la carte "robot" avant mise sous tension.
+ 
+ 
+Test d'alim via USB, la sortie du LDO est bien à 3,28V
+D1 et D9 semble être des modèle qui laisse passer (avec chute de tension dans les 2 sens).
+après vérification: c'est le courant de fuite qui créer cette tension qui s'écroule à 0 avec la moindre résistance à GND
+
+sur la carte de Dev, pour rappel les WR-MM sont soudé à l'envers,
+#il faut leur refaire un détrompeur à la colle chaude ou similaire.
+
+Sur la Carte Robot, l'alim en 5L/GND consomme 10mA et le uC ne chauffe pas.
+On tente l'alimentation en 12V
