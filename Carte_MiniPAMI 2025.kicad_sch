@@ -3710,12 +3710,6 @@
 		(uuid "14ac212a-0f4f-4eb2-ad61-cfc956a96def")
 	)
 	(junction
-		(at 24.13 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1a5a4787-d8bb-4772-bd90-43208ef2fdaf")
-	)
-	(junction
 		(at 97.79 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3762,6 +3756,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b402750-05c7-46f8-aa82-67d4cc1ae45b")
+	)
+	(junction
+		(at 24.13 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41976c77-1685-4c23-af9e-9b0c832150dd")
 	)
 	(junction
 		(at 97.79 125.73)
@@ -3818,6 +3818,12 @@
 		(uuid "60bd7b40-b45c-444b-b30a-216046309c41")
 	)
 	(junction
+		(at 24.13 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "660d4a9d-365f-49ab-81be-00e67fa7b92b")
+	)
+	(junction
 		(at 77.47 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3866,12 +3872,6 @@
 		(uuid "a3d9a529-7442-4ce3-a84a-06fec203f905")
 	)
 	(junction
-		(at 24.13 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a9143b62-a6f9-4e4a-b89d-453eb3e05430")
-	)
-	(junction
 		(at 259.08 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3882,6 +3882,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b87d99b0-e09a-4075-bbae-26238a6a8afa")
+	)
+	(junction
+		(at 24.13 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b90aaee1-c56d-4ec3-8fea-f1ffb10f7988")
 	)
 	(junction
 		(at 207.01 83.82)
@@ -3962,12 +3968,6 @@
 		(uuid "ee2b6b88-bc19-4516-ad05-eec12c10d5cb")
 	)
 	(junction
-		(at 24.13 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef8f3517-97b5-4f24-be97-5b3191f2f8c0")
-	)
-	(junction
 		(at 107.95 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3996,6 +3996,15 @@
 	(no_connect
 		(at 87.63 66.04)
 		(uuid "a259e6b1-c946-438a-8ed8-8459ae1b88b8")
+	)
+	(bus_entry
+		(at 29.21 55.88)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "574e487f-f517-4616-94f9-8c181c1b73a1")
 	)
 	(wire
 		(pts
@@ -6450,7 +6459,7 @@
 	)
 	(text "Mot Prop"
 		(exclude_from_sim no)
-		(at 261.62 42.926 0)
+		(at 261.112 42.926 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8007,7 +8016,8 @@
 	)
 	(symbol
 		(lib_id "Carte_MiniPAMI 2025-altium-import:root_0_Conn_22-03-2021")
-		(at 261.62 86.36 0)
+		(at 261.62 96.52 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8015,7 +8025,7 @@
 		(dnp no)
 		(uuid "0ca1d488-504c-4160-9d7e-78629619dba4")
 		(property "Reference" "J?"
-			(at 261.62 86.36 0)
+			(at 261.366 84.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8024,7 +8034,7 @@
 			)
 		)
 		(property "Value" "22-03-2021"
-			(at 258.572 86.36 0)
+			(at 258.572 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8033,8 +8043,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 261.62 86.36 0)
+		(property "Footprint" "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical"
+			(at 261.62 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8043,7 +8053,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 86.36 0)
+			(at 261.62 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8052,7 +8062,7 @@
 			)
 		)
 		(property "Description" "CONN HEADER VERT 2POS 2.54MM"
-			(at 261.62 86.36 0)
+			(at 261.62 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8061,7 +8071,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Farnell"
-			(at 258.572 86.36 0)
+			(at 258.572 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8071,7 +8081,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "9731075"
-			(at 258.572 86.36 0)
+			(at 258.572 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8081,7 +8091,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "22-03-2021"
-			(at 258.572 86.36 0)
+			(at 258.572 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8091,7 +8101,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "http://www.farnell.com/datasheets/1791308.pdf"
-			(at 258.572 86.36 0)
+			(at 258.572 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8101,7 +8111,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 258.572 86.36 0)
+			(at 258.572 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8111,7 +8121,7 @@
 			)
 		)
 		(property "COMPONENTLINK2URL" "http://www.farnell.com/cad/495071.pdf  http://www.farnell.com/cad/1533907.pdf  http://www.farnell.com/cad/1533907.pdf"
-			(at 258.572 86.36 0)
+			(at 258.572 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8121,7 +8131,7 @@
 			)
 		)
 		(property "COMPONENTLINK2DESCRIPTION" "Drawings"
-			(at 258.572 86.36 0)
+			(at 258.572 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8131,7 +8141,7 @@
 			)
 		)
 		(property "MANUFACTURER" "MOLEX"
-			(at 258.572 86.36 0)
+			(at 258.572 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11696,7 +11706,8 @@
 	)
 	(symbol
 		(lib_id "Carte_MiniPAMI 2025-altium-import:root_0_Conn_22-03-2021")
-		(at 261.62 30.48 0)
+		(at 261.62 40.64 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11704,7 +11715,7 @@
 		(dnp no)
 		(uuid "459550cf-f2c2-4e48-b1d2-f86719f4b2d9")
 		(property "Reference" "J9"
-			(at 261.62 30.48 0)
+			(at 261.366 28.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11713,7 +11724,7 @@
 			)
 		)
 		(property "Value" "22-03-2021"
-			(at 258.572 30.48 0)
+			(at 258.572 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11722,8 +11733,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 261.62 30.48 0)
+		(property "Footprint" "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical"
+			(at 261.62 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11732,7 +11743,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 30.48 0)
+			(at 261.62 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11741,7 +11752,7 @@
 			)
 		)
 		(property "Description" "CONN HEADER VERT 2POS 2.54MM"
-			(at 261.62 30.48 0)
+			(at 261.62 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11750,7 +11761,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Farnell"
-			(at 258.572 30.48 0)
+			(at 258.572 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11760,7 +11771,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "9731075"
-			(at 258.572 30.48 0)
+			(at 258.572 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11770,7 +11781,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "22-03-2021"
-			(at 258.572 30.48 0)
+			(at 258.572 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11780,7 +11791,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "http://www.farnell.com/datasheets/1791308.pdf"
-			(at 258.572 30.48 0)
+			(at 258.572 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11790,7 +11801,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 258.572 30.48 0)
+			(at 258.572 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11800,7 +11811,7 @@
 			)
 		)
 		(property "COMPONENTLINK2URL" "http://www.farnell.com/cad/495071.pdf  http://www.farnell.com/cad/1533907.pdf  http://www.farnell.com/cad/1533907.pdf"
-			(at 258.572 30.48 0)
+			(at 258.572 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11810,7 +11821,7 @@
 			)
 		)
 		(property "COMPONENTLINK2DESCRIPTION" "Drawings"
-			(at 258.572 30.48 0)
+			(at 258.572 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11820,7 +11831,7 @@
 			)
 		)
 		(property "MANUFACTURER" "MOLEX"
-			(at 258.572 30.48 0)
+			(at 258.572 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14447,7 +14458,8 @@
 	)
 	(symbol
 		(lib_id "Carte_MiniPAMI 2025-altium-import:root_0_mirrored_Conn_22-03-2021")
-		(at 21.59 91.44 0)
+		(at 21.59 101.6 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14455,7 +14467,7 @@
 		(dnp no)
 		(uuid "7bfe820d-7b58-4262-a9d9-d5ef191ad532")
 		(property "Reference" "J?"
-			(at 16.51 91.44 0)
+			(at 18.288 102.362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14464,7 +14476,7 @@
 			)
 		)
 		(property "Value" "22-03-2021"
-			(at 16.51 91.44 0)
+			(at 16.51 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14473,8 +14485,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 21.59 91.44 0)
+		(property "Footprint" "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical"
+			(at 21.59 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14483,7 +14495,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 91.44 0)
+			(at 21.59 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14492,7 +14504,7 @@
 			)
 		)
 		(property "Description" "CONN HEADER VERT 2POS 2.54MM"
-			(at 21.59 91.44 0)
+			(at 21.59 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14501,7 +14513,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Farnell"
-			(at 16.51 91.44 0)
+			(at 16.51 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14511,7 +14523,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "9731075"
-			(at 16.51 91.44 0)
+			(at 16.51 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14521,7 +14533,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "22-03-2021"
-			(at 16.51 91.44 0)
+			(at 16.51 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14531,7 +14543,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "http://www.farnell.com/datasheets/1791308.pdf"
-			(at 16.51 91.44 0)
+			(at 16.51 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14541,7 +14553,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 16.51 91.44 0)
+			(at 16.51 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14551,7 +14563,7 @@
 			)
 		)
 		(property "COMPONENTLINK2URL" "http://www.farnell.com/cad/495071.pdf  http://www.farnell.com/cad/1533907.pdf  http://www.farnell.com/cad/1533907.pdf"
-			(at 16.51 91.44 0)
+			(at 16.51 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14561,7 +14573,7 @@
 			)
 		)
 		(property "COMPONENTLINK2DESCRIPTION" "Drawings"
-			(at 16.51 91.44 0)
+			(at 16.51 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14571,7 +14583,7 @@
 			)
 		)
 		(property "MANUFACTURER" "MOLEX"
-			(at 16.51 91.44 0)
+			(at 16.51 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15785,7 +15797,8 @@
 	)
 	(symbol
 		(lib_id "Carte_MiniPAMI 2025-altium-import:root_0_Conn_22-03-2021")
-		(at 261.62 125.73 0)
+		(at 261.62 135.89 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15793,7 +15806,7 @@
 		(dnp no)
 		(uuid "8e5e0451-e534-4c60-b394-829189329cda")
 		(property "Reference" "J94"
-			(at 261.62 125.73 0)
+			(at 261.366 124.206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15802,7 +15815,7 @@
 			)
 		)
 		(property "Value" "22-03-2021"
-			(at 258.572 125.73 0)
+			(at 258.572 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15811,8 +15824,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 261.62 125.73 0)
+		(property "Footprint" "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical"
+			(at 261.62 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15821,7 +15834,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 125.73 0)
+			(at 261.62 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15830,7 +15843,7 @@
 			)
 		)
 		(property "Description" "CONN HEADER VERT 2POS 2.54MM"
-			(at 261.62 125.73 0)
+			(at 261.62 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15839,7 +15852,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Farnell"
-			(at 258.572 125.73 0)
+			(at 258.572 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15849,7 +15862,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "9731075"
-			(at 258.572 125.73 0)
+			(at 258.572 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15859,7 +15872,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "22-03-2021"
-			(at 258.572 125.73 0)
+			(at 258.572 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15869,7 +15882,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "http://www.farnell.com/datasheets/1791308.pdf"
-			(at 258.572 125.73 0)
+			(at 258.572 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15879,7 +15892,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 258.572 125.73 0)
+			(at 258.572 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15889,7 +15902,7 @@
 			)
 		)
 		(property "COMPONENTLINK2URL" "http://www.farnell.com/cad/495071.pdf  http://www.farnell.com/cad/1533907.pdf  http://www.farnell.com/cad/1533907.pdf"
-			(at 258.572 125.73 0)
+			(at 258.572 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15899,7 +15912,7 @@
 			)
 		)
 		(property "COMPONENTLINK2DESCRIPTION" "Drawings"
-			(at 258.572 125.73 0)
+			(at 258.572 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15909,7 +15922,7 @@
 			)
 		)
 		(property "MANUFACTURER" "MOLEX"
-			(at 258.572 125.73 0)
+			(at 258.572 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16889,7 +16902,8 @@
 	)
 	(symbol
 		(lib_id "Carte_MiniPAMI 2025-altium-import:root_0_mirrored_Conn_22-03-2021")
-		(at 21.59 130.81 0)
+		(at 21.59 140.97 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16897,7 +16911,7 @@
 		(dnp no)
 		(uuid "9f88bc74-dca6-4e81-9cdb-77df63562ae8")
 		(property "Reference" "J91"
-			(at 16.51 130.81 0)
+			(at 18.288 141.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16906,7 +16920,7 @@
 			)
 		)
 		(property "Value" "22-03-2021"
-			(at 16.51 130.81 0)
+			(at 16.51 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16915,8 +16929,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 21.59 130.81 0)
+		(property "Footprint" "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical"
+			(at 21.59 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16925,7 +16939,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 130.81 0)
+			(at 21.59 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16934,7 +16948,7 @@
 			)
 		)
 		(property "Description" "CONN HEADER VERT 2POS 2.54MM"
-			(at 21.59 130.81 0)
+			(at 21.59 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16943,7 +16957,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Farnell"
-			(at 16.51 130.81 0)
+			(at 16.51 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16953,7 +16967,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "9731075"
-			(at 16.51 130.81 0)
+			(at 16.51 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16963,7 +16977,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "22-03-2021"
-			(at 16.51 130.81 0)
+			(at 16.51 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16973,7 +16987,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "http://www.farnell.com/datasheets/1791308.pdf"
-			(at 16.51 130.81 0)
+			(at 16.51 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16983,7 +16997,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 16.51 130.81 0)
+			(at 16.51 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16993,7 +17007,7 @@
 			)
 		)
 		(property "COMPONENTLINK2URL" "http://www.farnell.com/cad/495071.pdf  http://www.farnell.com/cad/1533907.pdf  http://www.farnell.com/cad/1533907.pdf"
-			(at 16.51 130.81 0)
+			(at 16.51 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17003,7 +17017,7 @@
 			)
 		)
 		(property "COMPONENTLINK2DESCRIPTION" "Drawings"
-			(at 16.51 130.81 0)
+			(at 16.51 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17013,7 +17027,7 @@
 			)
 		)
 		(property "MANUFACTURER" "MOLEX"
-			(at 16.51 130.81 0)
+			(at 16.51 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21834,7 +21848,8 @@
 	)
 	(symbol
 		(lib_id "Carte_MiniPAMI 2025-altium-import:root_0_mirrored_Conn_22-03-2021")
-		(at 21.59 50.8 0)
+		(at 21.59 60.96 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21842,7 +21857,7 @@
 		(dnp no)
 		(uuid "f15acb66-8e7f-4fa4-ab8c-7a44172de106")
 		(property "Reference" "J2"
-			(at 16.51 50.8 0)
+			(at 18.034 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21851,7 +21866,7 @@
 			)
 		)
 		(property "Value" "22-03-2021"
-			(at 16.51 50.8 0)
+			(at 16.51 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21860,8 +21875,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 21.59 50.8 0)
+		(property "Footprint" "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical"
+			(at 21.59 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21870,7 +21885,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 50.8 0)
+			(at 21.59 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21879,7 +21894,7 @@
 			)
 		)
 		(property "Description" "CONN HEADER VERT 2POS 2.54MM"
-			(at 21.59 50.8 0)
+			(at 21.59 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21888,7 +21903,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Farnell"
-			(at 16.51 50.8 0)
+			(at 16.51 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21898,7 +21913,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "9731075"
-			(at 16.51 50.8 0)
+			(at 16.51 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21908,7 +21923,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "22-03-2021"
-			(at 16.51 50.8 0)
+			(at 16.51 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21918,7 +21933,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "http://www.farnell.com/datasheets/1791308.pdf"
-			(at 16.51 50.8 0)
+			(at 16.51 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21928,7 +21943,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 16.51 50.8 0)
+			(at 16.51 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21938,7 +21953,7 @@
 			)
 		)
 		(property "COMPONENTLINK2URL" "http://www.farnell.com/cad/495071.pdf  http://www.farnell.com/cad/1533907.pdf  http://www.farnell.com/cad/1533907.pdf"
-			(at 16.51 50.8 0)
+			(at 16.51 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21948,7 +21963,7 @@
 			)
 		)
 		(property "COMPONENTLINK2DESCRIPTION" "Drawings"
-			(at 16.51 50.8 0)
+			(at 16.51 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21958,7 +21973,7 @@
 			)
 		)
 		(property "MANUFACTURER" "MOLEX"
-			(at 16.51 50.8 0)
+			(at 16.51 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
