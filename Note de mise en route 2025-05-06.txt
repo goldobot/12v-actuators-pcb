@@ -37,4 +37,20 @@ sur la carte de Dev, pour rappel les WR-MM sont soudé à l'envers,
 Sur la Carte Robot, l'alim en 5L/GND consomme 10mA et le uC ne chauffe pas.
 On tente l'alimentation en 12V
 
-2025-05-19: le VREF est nécessaire pour la sonde de température, un fil est ajouter entre TP7 et le pole positif de C23 pour fournir du 3,3V sur ce pin du uC
+2025-05-19: le VREF est nécessaire pour la sonde de température, un fil est ajouter entre TP7 et le pole positif de C23 pour fournir du 3,3V sur ce pin du uC+
+
+
+
+
+############## Mini-PAMI ###############
+diode de roue libre: empreinte inversée, mets la carte en cc, à dessouder.
+probleme 2:
+quand 3L présent, les moteurs tournent.
+sur le signal brake, il y a entre 0 et 0.1v, le P-mos reste passant. (pas d'impact avec le lift NC)
+la PU R75 du P-mos fait 10.6k au lieu de 100k et la PD R77 du N-mos fait 9.6k au lieu de 100k
+dans le setting JLCPCB, tu as R75 à 510k et R77 à 10k
+voici toute les différences identifiée et qui sont à corriger sur chaque PCB:
+R74 100k -> 330
+R75 510k -> 100k
+R77 10k  -> 100k
+R78 22   -> 330
